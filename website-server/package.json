@@ -1,0 +1,23 @@
+{
+  "name": "website-server",
+  "version": "1.0.0",
+  "description": "建站工具后端",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev",
+    "debug": "egg-bin debug",
+    "start": "egg-scripts start --daemon --title=website-node-server",
+    "stop": "egg-scripts stop --title=website-node-server"
+  },
+  "author": "xiongchuanyu",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.26.0",
+    "egg-scripts": "^2.13.0",
+    "moment": "^2.24.0",
+    "nanoid": "^2.0.1"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.14.1"
+  }
+}

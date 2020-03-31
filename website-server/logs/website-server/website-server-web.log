@@ -1,0 +1,270 @@
+2020-03-30 19:34:47,185 ERROR 37283 [-/::1/-/36780ms GET /getUuid] nodejs.TypeError: The "size" argument must be of type number. Received type string
+    at Function.allocUnsafe (buffer.js:358:3)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/random.js:12:23)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/index.js:23:15)
+    at Helper.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/extend/helper.js:11:12)
+    at HomeController.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/controller/home.js:6:27)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 37283
+hostname: localhost
+
+2020-03-30 19:35:41,052 ERROR 37361 [-/::1/-/5ms GET /getUuid] nodejs.TypeError: The "size" argument must be of type number. Received type string
+    at Function.allocUnsafe (buffer.js:358:3)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/random.js:12:23)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/index.js:23:15)
+    at Helper.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/extend/helper.js:9:12)
+    at HomeController.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/controller/home.js:6:27)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 37361
+hostname: localhost
+
+2020-03-30 19:35:42,284 ERROR 37361 [-/::1/-/1ms GET /getUuid] nodejs.TypeError: The "size" argument must be of type number. Received type string
+    at Function.allocUnsafe (buffer.js:358:3)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/random.js:12:23)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/index.js:23:15)
+    at Helper.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/extend/helper.js:9:12)
+    at HomeController.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/controller/home.js:6:27)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 37361
+hostname: localhost
+
+2020-03-30 19:40:04,080 ERROR 37726 [-/::1/-/8ms GET /getUuid] nodejs.TypeError: The "size" argument must be of type number. Received type string
+    at Function.allocUnsafe (buffer.js:358:3)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/random.js:12:23)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/index.js:23:15)
+    at Helper.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/extend/helper.js:9:27)
+    at HomeController.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/controller/home.js:6:27)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 37726
+hostname: localhost
+
+2020-03-30 19:40:05,401 ERROR 37726 [-/::1/-/1ms GET /getUuid] nodejs.TypeError: The "size" argument must be of type number. Received type string
+    at Function.allocUnsafe (buffer.js:358:3)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/random.js:12:23)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/index.js:23:15)
+    at Helper.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/extend/helper.js:9:27)
+    at HomeController.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/controller/home.js:6:27)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 37726
+hostname: localhost
+
+2020-03-30 19:40:31,692 ERROR 37742 [-/::1/-/6ms GET /getUuid] nodejs.TypeError: The "size" argument must be of type number. Received type string
+    at Function.allocUnsafe (buffer.js:358:3)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/random.js:12:23)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/index.js:23:15)
+    at Helper.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/extend/helper.js:9:27)
+    at HomeController.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/controller/home.js:6:27)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 37742
+hostname: localhost
+
+2020-03-30 19:40:32,684 ERROR 37742 [-/::1/-/1ms GET /getUuid] nodejs.TypeError: The "size" argument must be of type number. Received type string
+    at Function.allocUnsafe (buffer.js:358:3)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/random.js:12:23)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/index.js:23:15)
+    at Helper.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/extend/helper.js:9:27)
+    at HomeController.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/controller/home.js:6:27)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 37742
+hostname: localhost
+
+2020-03-30 19:42:17,835 ERROR 37817 [-/::1/-/5ms GET /getUuid] nodejs.TypeError: The "size" argument must be of type number. Received type string
+    at Function.allocUnsafe (buffer.js:358:3)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/random.js:12:23)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/index.js:23:15)
+    at Helper.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/extend/helper.js:9:27)
+    at HomeController.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/controller/home.js:6:37)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 37817
+hostname: localhost
+
+2020-03-30 19:42:18,543 ERROR 37817 [-/::1/-/1ms GET /getUuid] nodejs.TypeError: The "size" argument must be of type number. Received type string
+    at Function.allocUnsafe (buffer.js:358:3)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/random.js:12:23)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/index.js:23:15)
+    at Helper.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/extend/helper.js:9:27)
+    at HomeController.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/controller/home.js:6:37)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 37817
+hostname: localhost
+
+2020-03-30 19:42:41,296 ERROR 37843 [-/::1/-/6ms GET /getUuid] nodejs.TypeError: The "size" argument must be of type number. Received type string
+    at Function.allocUnsafe (buffer.js:358:3)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/random.js:12:23)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/index.js:23:15)
+    at Helper.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/extend/helper.js:9:27)
+    at HomeController.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/controller/home.js:6:37)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 37843
+hostname: localhost
+
+2020-03-30 19:43:02,502 ERROR 37863 [-/::1/-/6ms GET /getUuid] nodejs.TypeError: The "size" argument must be of type number. Received type string
+    at Function.allocUnsafe (buffer.js:358:3)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/random.js:12:23)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/index.js:23:15)
+    at Helper.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/extend/helper.js:9:27)
+    at HomeController.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/controller/home.js:6:37)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 37863
+hostname: localhost
+
+2020-03-30 19:43:48,195 ERROR 37904 [-/::1/-/5ms GET /getUuid] nodejs.TypeError: The "size" argument must be of type number. Received type string
+    at Function.allocUnsafe (buffer.js:358:3)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/random.js:12:23)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/index.js:23:15)
+    at Helper.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/extend/helper.js:9:27)
+    at HomeController.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/controller/home.js:6:37)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 37904
+hostname: localhost
+
+2020-03-30 19:43:48,739 ERROR 37904 [-/::1/-/1ms GET /getUuid] nodejs.TypeError: The "size" argument must be of type number. Received type string
+    at Function.allocUnsafe (buffer.js:358:3)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/random.js:12:23)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/index.js:23:15)
+    at Helper.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/extend/helper.js:9:27)
+    at HomeController.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/controller/home.js:6:37)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 37904
+hostname: localhost
+
+2020-03-30 19:44:27,270 ERROR 37958 [-/::1/-/5ms GET /getUuid] nodejs.TypeError: The "size" argument must be of type number. Received type string
+    at Function.allocUnsafe (buffer.js:358:3)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/random.js:12:23)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/index.js:23:15)
+    at Helper.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/extend/helper.js:9:12)
+    at HomeController.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/controller/home.js:6:37)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 37958
+hostname: localhost
+
+2020-03-30 19:44:27,855 ERROR 37958 [-/::1/-/0ms GET /getUuid] nodejs.TypeError: The "size" argument must be of type number. Received type string
+    at Function.allocUnsafe (buffer.js:358:3)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/random.js:12:23)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/index.js:23:15)
+    at Helper.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/extend/helper.js:9:12)
+    at HomeController.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/controller/home.js:6:37)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 37958
+hostname: localhost
+
+2020-03-30 19:44:28,048 ERROR 37958 [-/::1/-/1ms GET /getUuid] nodejs.TypeError: The "size" argument must be of type number. Received type string
+    at Function.allocUnsafe (buffer.js:358:3)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/random.js:12:23)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/index.js:23:15)
+    at Helper.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/extend/helper.js:9:12)
+    at HomeController.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/controller/home.js:6:37)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 37958
+hostname: localhost
+
+2020-03-30 19:44:46,855 ERROR 37992 [-/::1/-/6ms GET /getUuid] nodejs.RangeError: The value "NaN" is invalid for option "size"
+    at Function.allocUnsafe (buffer.js:358:3)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/random.js:12:23)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/format.js:50:17)
+    at Helper.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/extend/helper.js:9:12)
+    at HomeController.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/controller/home.js:6:37)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+code: "ERR_INVALID_OPT_VALUE"
+pid: 37992
+hostname: localhost
+
+2020-03-30 19:44:47,510 ERROR 37992 [-/::1/-/0ms GET /getUuid] nodejs.RangeError: The value "NaN" is invalid for option "size"
+    at Function.allocUnsafe (buffer.js:358:3)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/random.js:12:23)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/nanoid/format.js:50:17)
+    at Helper.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/extend/helper.js:9:12)
+    at HomeController.getUuid (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/controller/home.js:6:37)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+code: "ERR_INVALID_OPT_VALUE"
+pid: 37992
+hostname: localhost
+

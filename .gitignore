@@ -1,0 +1,4 @@
+.history/
+.idea/
+website-server/node_modules
+website-server/run
