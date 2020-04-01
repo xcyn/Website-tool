@@ -1,0 +1,33 @@
+version: "3"
+services:
+  mongodb:
+    # 容器环境
+    image: mongo:3.4.7
+    # 命令
+    command: mongod --auth --smallfiles
+    # 环境变量
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: "xiongchuanyu"
+      MONGO_INITDB_ROOT_PASSWORD: "123456"
+    # 绑定容器的27017端口到主机的27017端口
+    ports:
+      - "27017:27017"
+    # 这里是使用绝对路径挂载数据卷，前面./db是宿主机的，后面/data/db是容器内部的
+    # 也就是说将宿主机的./db隐射到容器内部的/data/db
+    volumes:
+      - ./db:/data/db
+  mongo-docker:
+    # 服务除了可以基于指定的镜像，还可以基于一份 Dockerfile，在使用 up 启动之时执行构建任务，
+    # 这个构建标签就是 build，它可以指定 Dockerfile 所在文件夹的路径。
+    # Compose 将会利用它自动构建这个镜像，然后使用这个镜像启动服务容器。
+    build: ./mongo-docker
+    # 相当于软连接上面的mongodb服务
+    links:
+      - mongodb
+    # 环境变量
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: "xiongchuanyu"
+      MONGO_INITDB_ROOT_PASSWORD: "123456"
+      MONGODB_URL: "mongodb:27017"
+      ADMIN_DB: "admin"
+      DEFAULT_DB: "website-docker"

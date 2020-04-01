@@ -1,4 +1,7 @@
 .history/
 .idea/
+website-client/node_modules
+website-docker/node_modules
 website-server/node_modules
 website-server/run
+website-docker/db
