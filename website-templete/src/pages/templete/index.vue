@@ -31,7 +31,7 @@ export default {
     },
     async mounted() {
       this.setTempleteData({
-        data: 'templete226'
+        data: 'templete22611'
       })
     }
 };

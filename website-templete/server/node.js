@@ -54,5 +54,4 @@ try {
   build()
 } catch(err) {
   console.log('实时编译中.....')
-
 }

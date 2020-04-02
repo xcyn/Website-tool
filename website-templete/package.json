@@ -9,11 +9,13 @@
     "build:ssr": "cross-env BUILD_TARGET=node vue-cli-service build --no-clean",
     "watch-build": "npm-watch build",
     "build": "npm run build:client && npm run build:ssr",
-    "ssr": "npm run build && nodemon server/node.js build -w"
+    "ssr": "concurrently --kill-others-on-fail -r 'nodemon server/node.js build -w' 'npm run watch-build'"
   },
   "watch": {
     "build": {
-      "patterns": ["src"],
+      "patterns": [
+        "src"
+      ],
       "extensions": "vue,js,png",
       "quiet": true
     }
@@ -32,6 +34,7 @@
     "@vue/cli-plugin-eslint": "^4.2.0",
     "@vue/cli-service": "^4.2.0",
     "babel-eslint": "^10.0.3",
+    "concurrently": "^5.1.0",
     "cross-env": "^7.0.2",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.1.2",
