@@ -41,21 +41,23 @@ class PageConfigController extends Controller {
     ctx.body = ctx.helper.res({
       data: {
         '1': {
-          title: '配置化页面',
+          title: '配置化页面模版层案例',
           leftText: '返回',
-          rightText: '返回',
-          style: {
+          baseStyle: {
             margin: '0 0 10px 0',
           },
         },
         '2': {
           type: 'primary',
-          style: {
+          baseStyle: {
             fontSize: '25px',
-            margin: '0 0 10px 0',
-            'text-align': 'center'
+            margin: '20px 0 10px 0',
+            'text-align': 'center',
           },
-          value: '我是x-Button1',
+          style: {
+            width: '80%'
+          },
+          value: '确定',
         },
         '3': {
           style: {
@@ -77,9 +79,9 @@ class PageConfigController extends Controller {
           ]
         },
         '5': {
-          width: '300',
-          height: '300',
-          style: {
+          width: '350',
+          height: '350',
+          baseStyle: {
             'text-align': 'center',
           },
           src: "https://img.yzcdn.cn/vant/cat.jpeg"

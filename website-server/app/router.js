@@ -5,5 +5,4 @@ module.exports = app => {
   router.get('/pageConfig/getPageconfigList', controller.pageConfig.getPageconfigList)
   router.get('/pageConfig/getPageComponentDatas', controller.pageConfig.getPageComponentDatas)
   router.get('/pageConfig/getPageCommonData', controller.pageConfig.getPageCommonData)
-  
 };

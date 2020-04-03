@@ -2788,3 +2788,296 @@
 2020-04-03 14:04:54,630 INFO 89294 [egg:core] dump config after load, 4ms
 2020-04-03 14:04:54,639 INFO 89294 [egg-watcher:application] watcher start success
 2020-04-03 14:04:54,648 INFO 89294 [egg:core] dump config after ready, 5ms
+2020-04-03 14:09:29,045 INFO 89573 [egg:logger] init all loggers with options: {"dir":"/Users/apple/Documents/xiangmu/node/Website-tool/website-server/logs/website-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"website-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-03 14:09:29,068 INFO 89573 [egg-multipart] stream mode enable
+2020-04-03 14:09:29,311 INFO 89573 [egg-static] starting static serve /public/ -> /Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/public
+2020-04-03 14:09:29,313 INFO 89573 [egg-security] use csrf middleware
+2020-04-03 14:09:29,314 INFO 89573 [egg-security] use methodnoallow middleware
+2020-04-03 14:09:29,314 INFO 89573 [egg-security] use noopen middleware
+2020-04-03 14:09:29,314 INFO 89573 [egg-security] use nosniff middleware
+2020-04-03 14:09:29,315 INFO 89573 [egg-security] use xssProtection middleware
+2020-04-03 14:09:29,315 INFO 89573 [egg-security] use xframe middleware
+2020-04-03 14:09:29,315 INFO 89573 [egg-security] use dta middleware
+2020-04-03 14:09:29,315 INFO 89573 [egg-security] compose 7 middlewares into one security middleware
+2020-04-03 14:09:29,324 INFO 89573 [egg:core] dump config after load, 5ms
+2020-04-03 14:09:29,335 INFO 89573 [egg-watcher:application] watcher start success
+2020-04-03 14:09:29,341 INFO 89573 [egg:core] dump config after ready, 4ms
+2020-04-03 14:10:02,641 INFO 89602 [egg:logger] init all loggers with options: {"dir":"/Users/apple/Documents/xiangmu/node/Website-tool/website-server/logs/website-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"website-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-03 14:10:02,666 INFO 89602 [egg-multipart] stream mode enable
+2020-04-03 14:10:02,907 INFO 89602 [egg-static] starting static serve /public/ -> /Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/public
+2020-04-03 14:10:02,909 INFO 89602 [egg-security] use csrf middleware
+2020-04-03 14:10:02,910 INFO 89602 [egg-security] use methodnoallow middleware
+2020-04-03 14:10:02,911 INFO 89602 [egg-security] use noopen middleware
+2020-04-03 14:10:02,911 INFO 89602 [egg-security] use nosniff middleware
+2020-04-03 14:10:02,912 INFO 89602 [egg-security] use xssProtection middleware
+2020-04-03 14:10:02,912 INFO 89602 [egg-security] use xframe middleware
+2020-04-03 14:10:02,913 INFO 89602 [egg-security] use dta middleware
+2020-04-03 14:10:02,913 INFO 89602 [egg-security] compose 7 middlewares into one security middleware
+2020-04-03 14:10:02,921 INFO 89602 [egg:core] dump config after load, 4ms
+2020-04-03 14:10:02,931 INFO 89602 [egg-watcher:application] watcher start success
+2020-04-03 14:10:02,938 INFO 89602 [egg:core] dump config after ready, 5ms
+2020-04-03 14:10:19,355 INFO 89619 [egg:logger] init all loggers with options: {"dir":"/Users/apple/Documents/xiangmu/node/Website-tool/website-server/logs/website-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"website-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-03 14:10:19,378 INFO 89619 [egg-multipart] stream mode enable
+2020-04-03 14:10:19,661 INFO 89619 [egg-static] starting static serve /public/ -> /Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/public
+2020-04-03 14:10:19,663 INFO 89619 [egg-security] use csrf middleware
+2020-04-03 14:10:19,664 INFO 89619 [egg-security] use methodnoallow middleware
+2020-04-03 14:10:19,664 INFO 89619 [egg-security] use noopen middleware
+2020-04-03 14:10:19,664 INFO 89619 [egg-security] use nosniff middleware
+2020-04-03 14:10:19,665 INFO 89619 [egg-security] use xssProtection middleware
+2020-04-03 14:10:19,665 INFO 89619 [egg-security] use xframe middleware
+2020-04-03 14:10:19,665 INFO 89619 [egg-security] use dta middleware
+2020-04-03 14:10:19,665 INFO 89619 [egg-security] compose 7 middlewares into one security middleware
+2020-04-03 14:10:19,675 INFO 89619 [egg:core] dump config after load, 6ms
+2020-04-03 14:10:19,689 INFO 89619 [egg-watcher:application] watcher start success
+2020-04-03 14:10:19,696 INFO 89619 [egg:core] dump config after ready, 5ms
+2020-04-03 14:12:08,074 INFO 89646 [egg:logger] init all loggers with options: {"dir":"/Users/apple/Documents/xiangmu/node/Website-tool/website-server/logs/website-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"website-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-03 14:12:08,097 INFO 89646 [egg-multipart] stream mode enable
+2020-04-03 14:12:08,374 INFO 89646 [egg-static] starting static serve /public/ -> /Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/public
+2020-04-03 14:12:08,376 INFO 89646 [egg-security] use csrf middleware
+2020-04-03 14:12:08,377 INFO 89646 [egg-security] use methodnoallow middleware
+2020-04-03 14:12:08,377 INFO 89646 [egg-security] use noopen middleware
+2020-04-03 14:12:08,377 INFO 89646 [egg-security] use nosniff middleware
+2020-04-03 14:12:08,378 INFO 89646 [egg-security] use xssProtection middleware
+2020-04-03 14:12:08,378 INFO 89646 [egg-security] use xframe middleware
+2020-04-03 14:12:08,379 INFO 89646 [egg-security] use dta middleware
+2020-04-03 14:12:08,379 INFO 89646 [egg-security] compose 7 middlewares into one security middleware
+2020-04-03 14:12:08,387 INFO 89646 [egg:core] dump config after load, 4ms
+2020-04-03 14:12:08,402 INFO 89646 [egg-watcher:application] watcher start success
+2020-04-03 14:12:08,409 INFO 89646 [egg:core] dump config after ready, 5ms
+2020-04-03 14:12:13,219 INFO 89655 [egg:logger] init all loggers with options: {"dir":"/Users/apple/Documents/xiangmu/node/Website-tool/website-server/logs/website-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"website-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-03 14:12:13,252 INFO 89655 [egg-multipart] stream mode enable
+2020-04-03 14:12:13,583 INFO 89655 [egg-static] starting static serve /public/ -> /Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/public
+2020-04-03 14:12:13,585 INFO 89655 [egg-security] use csrf middleware
+2020-04-03 14:12:13,586 INFO 89655 [egg-security] use methodnoallow middleware
+2020-04-03 14:12:13,586 INFO 89655 [egg-security] use noopen middleware
+2020-04-03 14:12:13,587 INFO 89655 [egg-security] use nosniff middleware
+2020-04-03 14:12:13,587 INFO 89655 [egg-security] use xssProtection middleware
+2020-04-03 14:12:13,587 INFO 89655 [egg-security] use xframe middleware
+2020-04-03 14:12:13,588 INFO 89655 [egg-security] use dta middleware
+2020-04-03 14:12:13,588 INFO 89655 [egg-security] compose 7 middlewares into one security middleware
+2020-04-03 14:12:13,596 INFO 89655 [egg:core] dump config after load, 4ms
+2020-04-03 14:12:13,609 INFO 89655 [egg-watcher:application] watcher start success
+2020-04-03 14:12:13,616 INFO 89655 [egg:core] dump config after ready, 5ms
+2020-04-03 14:12:31,550 INFO 89672 [egg:logger] init all loggers with options: {"dir":"/Users/apple/Documents/xiangmu/node/Website-tool/website-server/logs/website-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"website-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-03 14:12:31,577 INFO 89672 [egg-multipart] stream mode enable
+2020-04-03 14:12:31,819 INFO 89672 [egg-static] starting static serve /public/ -> /Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/public
+2020-04-03 14:12:31,821 INFO 89672 [egg-security] use csrf middleware
+2020-04-03 14:12:31,821 INFO 89672 [egg-security] use methodnoallow middleware
+2020-04-03 14:12:31,821 INFO 89672 [egg-security] use noopen middleware
+2020-04-03 14:12:31,822 INFO 89672 [egg-security] use nosniff middleware
+2020-04-03 14:12:31,822 INFO 89672 [egg-security] use xssProtection middleware
+2020-04-03 14:12:31,823 INFO 89672 [egg-security] use xframe middleware
+2020-04-03 14:12:31,823 INFO 89672 [egg-security] use dta middleware
+2020-04-03 14:12:31,823 INFO 89672 [egg-security] compose 7 middlewares into one security middleware
+2020-04-03 14:12:31,831 INFO 89672 [egg:core] dump config after load, 4ms
+2020-04-03 14:12:31,842 INFO 89672 [egg-watcher:application] watcher start success
+2020-04-03 14:12:31,849 INFO 89672 [egg:core] dump config after ready, 4ms
+2020-04-03 14:12:41,327 INFO 89689 [egg:logger] init all loggers with options: {"dir":"/Users/apple/Documents/xiangmu/node/Website-tool/website-server/logs/website-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"website-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-03 14:12:41,357 INFO 89689 [egg-multipart] stream mode enable
+2020-04-03 14:12:41,733 INFO 89689 [egg-static] starting static serve /public/ -> /Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/public
+2020-04-03 14:12:41,735 INFO 89689 [egg-security] use csrf middleware
+2020-04-03 14:12:41,735 INFO 89689 [egg-security] use methodnoallow middleware
+2020-04-03 14:12:41,736 INFO 89689 [egg-security] use noopen middleware
+2020-04-03 14:12:41,736 INFO 89689 [egg-security] use nosniff middleware
+2020-04-03 14:12:41,736 INFO 89689 [egg-security] use xssProtection middleware
+2020-04-03 14:12:41,737 INFO 89689 [egg-security] use xframe middleware
+2020-04-03 14:12:41,737 INFO 89689 [egg-security] use dta middleware
+2020-04-03 14:12:41,737 INFO 89689 [egg-security] compose 7 middlewares into one security middleware
+2020-04-03 14:12:41,745 INFO 89689 [egg:core] dump config after load, 4ms
+2020-04-03 14:12:41,757 INFO 89689 [egg-watcher:application] watcher start success
+2020-04-03 14:12:41,764 INFO 89689 [egg:core] dump config after ready, 5ms
+2020-04-03 14:12:46,369 INFO 89698 [egg:logger] init all loggers with options: {"dir":"/Users/apple/Documents/xiangmu/node/Website-tool/website-server/logs/website-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"website-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-03 14:12:46,405 INFO 89698 [egg-multipart] stream mode enable
+2020-04-03 14:12:46,737 INFO 89698 [egg-static] starting static serve /public/ -> /Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/public
+2020-04-03 14:12:46,740 INFO 89698 [egg-security] use csrf middleware
+2020-04-03 14:12:46,740 INFO 89698 [egg-security] use methodnoallow middleware
+2020-04-03 14:12:46,741 INFO 89698 [egg-security] use noopen middleware
+2020-04-03 14:12:46,741 INFO 89698 [egg-security] use nosniff middleware
+2020-04-03 14:12:46,742 INFO 89698 [egg-security] use xssProtection middleware
+2020-04-03 14:12:46,742 INFO 89698 [egg-security] use xframe middleware
+2020-04-03 14:12:46,743 INFO 89698 [egg-security] use dta middleware
+2020-04-03 14:12:46,743 INFO 89698 [egg-security] compose 7 middlewares into one security middleware
+2020-04-03 14:12:46,751 INFO 89698 [egg:core] dump config after load, 4ms
+2020-04-03 14:12:46,760 INFO 89698 [egg-watcher:application] watcher start success
+2020-04-03 14:12:46,767 INFO 89698 [egg:core] dump config after ready, 5ms
+2020-04-03 14:13:39,109 INFO 89726 [egg:logger] init all loggers with options: {"dir":"/Users/apple/Documents/xiangmu/node/Website-tool/website-server/logs/website-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"website-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-03 14:13:39,137 INFO 89726 [egg-multipart] stream mode enable
+2020-04-03 14:13:39,382 INFO 89726 [egg-static] starting static serve /public/ -> /Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/public
+2020-04-03 14:13:39,384 INFO 89726 [egg-security] use csrf middleware
+2020-04-03 14:13:39,384 INFO 89726 [egg-security] use methodnoallow middleware
+2020-04-03 14:13:39,385 INFO 89726 [egg-security] use noopen middleware
+2020-04-03 14:13:39,385 INFO 89726 [egg-security] use nosniff middleware
+2020-04-03 14:13:39,385 INFO 89726 [egg-security] use xssProtection middleware
+2020-04-03 14:13:39,386 INFO 89726 [egg-security] use xframe middleware
+2020-04-03 14:13:39,386 INFO 89726 [egg-security] use dta middleware
+2020-04-03 14:13:39,386 INFO 89726 [egg-security] compose 7 middlewares into one security middleware
+2020-04-03 14:13:39,395 INFO 89726 [egg:core] dump config after load, 5ms
+2020-04-03 14:13:39,404 INFO 89726 [egg-watcher:application] watcher start success
+2020-04-03 14:13:39,411 INFO 89726 [egg:core] dump config after ready, 5ms
+2020-04-03 14:13:50,762 INFO 89744 [egg:logger] init all loggers with options: {"dir":"/Users/apple/Documents/xiangmu/node/Website-tool/website-server/logs/website-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"website-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-03 14:13:50,804 INFO 89744 [egg-multipart] stream mode enable
+2020-04-03 14:13:51,127 INFO 89744 [egg-static] starting static serve /public/ -> /Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/public
+2020-04-03 14:13:51,129 INFO 89744 [egg-security] use csrf middleware
+2020-04-03 14:13:51,130 INFO 89744 [egg-security] use methodnoallow middleware
+2020-04-03 14:13:51,130 INFO 89744 [egg-security] use noopen middleware
+2020-04-03 14:13:51,130 INFO 89744 [egg-security] use nosniff middleware
+2020-04-03 14:13:51,131 INFO 89744 [egg-security] use xssProtection middleware
+2020-04-03 14:13:51,131 INFO 89744 [egg-security] use xframe middleware
+2020-04-03 14:13:51,131 INFO 89744 [egg-security] use dta middleware
+2020-04-03 14:13:51,132 INFO 89744 [egg-security] compose 7 middlewares into one security middleware
+2020-04-03 14:13:51,143 INFO 89744 [egg:core] dump config after load, 7ms
+2020-04-03 14:13:51,153 INFO 89744 [egg-watcher:application] watcher start success
+2020-04-03 14:13:51,161 INFO 89744 [egg:core] dump config after ready, 6ms
+2020-04-03 14:14:02,020 INFO 89753 [egg:logger] init all loggers with options: {"dir":"/Users/apple/Documents/xiangmu/node/Website-tool/website-server/logs/website-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"website-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-03 14:14:02,043 INFO 89753 [egg-multipart] stream mode enable
+2020-04-03 14:14:02,292 INFO 89753 [egg-static] starting static serve /public/ -> /Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/public
+2020-04-03 14:14:02,295 INFO 89753 [egg-security] use csrf middleware
+2020-04-03 14:14:02,295 INFO 89753 [egg-security] use methodnoallow middleware
+2020-04-03 14:14:02,296 INFO 89753 [egg-security] use noopen middleware
+2020-04-03 14:14:02,296 INFO 89753 [egg-security] use nosniff middleware
+2020-04-03 14:14:02,296 INFO 89753 [egg-security] use xssProtection middleware
+2020-04-03 14:14:02,297 INFO 89753 [egg-security] use xframe middleware
+2020-04-03 14:14:02,297 INFO 89753 [egg-security] use dta middleware
+2020-04-03 14:14:02,297 INFO 89753 [egg-security] compose 7 middlewares into one security middleware
+2020-04-03 14:14:02,305 INFO 89753 [egg:core] dump config after load, 4ms
+2020-04-03 14:14:02,318 INFO 89753 [egg-watcher:application] watcher start success
+2020-04-03 14:14:02,327 INFO 89753 [egg:core] dump config after ready, 7ms
+2020-04-03 14:14:02,829 INFO 89754 [egg:logger] init all loggers with options: {"dir":"/Users/apple/Documents/xiangmu/node/Website-tool/website-server/logs/website-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"website-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-03 14:14:02,855 INFO 89754 [egg-multipart] stream mode enable
+2020-04-03 14:14:03,093 INFO 89754 [egg-static] starting static serve /public/ -> /Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/public
+2020-04-03 14:14:03,094 INFO 89754 [egg-security] use csrf middleware
+2020-04-03 14:14:03,095 INFO 89754 [egg-security] use methodnoallow middleware
+2020-04-03 14:14:03,095 INFO 89754 [egg-security] use noopen middleware
+2020-04-03 14:14:03,096 INFO 89754 [egg-security] use nosniff middleware
+2020-04-03 14:14:03,096 INFO 89754 [egg-security] use xssProtection middleware
+2020-04-03 14:14:03,096 INFO 89754 [egg-security] use xframe middleware
+2020-04-03 14:14:03,097 INFO 89754 [egg-security] use dta middleware
+2020-04-03 14:14:03,097 INFO 89754 [egg-security] compose 7 middlewares into one security middleware
+2020-04-03 14:14:03,104 INFO 89754 [egg:core] dump config after load, 4ms
+2020-04-03 14:14:03,114 INFO 89754 [egg-watcher:application] watcher start success
+2020-04-03 14:14:03,120 INFO 89754 [egg:core] dump config after ready, 4ms
+2020-04-03 14:14:20,214 INFO 89771 [egg:logger] init all loggers with options: {"dir":"/Users/apple/Documents/xiangmu/node/Website-tool/website-server/logs/website-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"website-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-03 14:14:20,241 INFO 89771 [egg-multipart] stream mode enable
+2020-04-03 14:14:20,492 INFO 89771 [egg-static] starting static serve /public/ -> /Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/public
+2020-04-03 14:14:20,494 INFO 89771 [egg-security] use csrf middleware
+2020-04-03 14:14:20,494 INFO 89771 [egg-security] use methodnoallow middleware
+2020-04-03 14:14:20,495 INFO 89771 [egg-security] use noopen middleware
+2020-04-03 14:14:20,495 INFO 89771 [egg-security] use nosniff middleware
+2020-04-03 14:14:20,496 INFO 89771 [egg-security] use xssProtection middleware
+2020-04-03 14:14:20,496 INFO 89771 [egg-security] use xframe middleware
+2020-04-03 14:14:20,496 INFO 89771 [egg-security] use dta middleware
+2020-04-03 14:14:20,496 INFO 89771 [egg-security] compose 7 middlewares into one security middleware
+2020-04-03 14:14:20,504 INFO 89771 [egg:core] dump config after load, 4ms
+2020-04-03 14:14:20,516 INFO 89771 [egg-watcher:application] watcher start success
+2020-04-03 14:14:20,523 INFO 89771 [egg:core] dump config after ready, 5ms
+2020-04-03 14:14:35,206 INFO 89788 [egg:logger] init all loggers with options: {"dir":"/Users/apple/Documents/xiangmu/node/Website-tool/website-server/logs/website-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"website-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-03 14:14:35,230 INFO 89788 [egg-multipart] stream mode enable
+2020-04-03 14:14:35,532 INFO 89788 [egg-static] starting static serve /public/ -> /Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/public
+2020-04-03 14:14:35,535 INFO 89788 [egg-security] use csrf middleware
+2020-04-03 14:14:35,535 INFO 89788 [egg-security] use methodnoallow middleware
+2020-04-03 14:14:35,536 INFO 89788 [egg-security] use noopen middleware
+2020-04-03 14:14:35,537 INFO 89788 [egg-security] use nosniff middleware
+2020-04-03 14:14:35,537 INFO 89788 [egg-security] use xssProtection middleware
+2020-04-03 14:14:35,538 INFO 89788 [egg-security] use xframe middleware
+2020-04-03 14:14:35,538 INFO 89788 [egg-security] use dta middleware
+2020-04-03 14:14:35,538 INFO 89788 [egg-security] compose 7 middlewares into one security middleware
+2020-04-03 14:14:35,556 INFO 89788 [egg:core] dump config after load, 11ms
+2020-04-03 14:14:35,571 INFO 89788 [egg-watcher:application] watcher start success
+2020-04-03 14:14:35,579 INFO 89788 [egg:core] dump config after ready, 6ms
+2020-04-03 14:15:14,277 INFO 89903 [egg:logger] init all loggers with options: {"dir":"/Users/apple/Documents/xiangmu/node/Website-tool/website-server/logs/website-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"website-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-03 14:15:14,300 INFO 89903 [egg-multipart] stream mode enable
+2020-04-03 14:15:14,694 INFO 89903 [egg-static] starting static serve /public/ -> /Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/public
+2020-04-03 14:15:14,696 INFO 89903 [egg-security] use csrf middleware
+2020-04-03 14:15:14,696 INFO 89903 [egg-security] use methodnoallow middleware
+2020-04-03 14:15:14,696 INFO 89903 [egg-security] use noopen middleware
+2020-04-03 14:15:14,697 INFO 89903 [egg-security] use nosniff middleware
+2020-04-03 14:15:14,697 INFO 89903 [egg-security] use xssProtection middleware
+2020-04-03 14:15:14,697 INFO 89903 [egg-security] use xframe middleware
+2020-04-03 14:15:14,698 INFO 89903 [egg-security] use dta middleware
+2020-04-03 14:15:14,698 INFO 89903 [egg-security] compose 7 middlewares into one security middleware
+2020-04-03 14:15:14,706 INFO 89903 [egg:core] dump config after load, 4ms
+2020-04-03 14:15:14,717 INFO 89903 [egg-watcher:application] watcher start success
+2020-04-03 14:15:14,724 INFO 89903 [egg:core] dump config after ready, 5ms
+2020-04-03 14:15:25,782 INFO 89912 [egg:logger] init all loggers with options: {"dir":"/Users/apple/Documents/xiangmu/node/Website-tool/website-server/logs/website-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"website-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-03 14:15:25,826 INFO 89912 [egg-multipart] stream mode enable
+2020-04-03 14:15:26,127 INFO 89912 [egg-static] starting static serve /public/ -> /Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/public
+2020-04-03 14:15:26,129 INFO 89912 [egg-security] use csrf middleware
+2020-04-03 14:15:26,129 INFO 89912 [egg-security] use methodnoallow middleware
+2020-04-03 14:15:26,130 INFO 89912 [egg-security] use noopen middleware
+2020-04-03 14:15:26,130 INFO 89912 [egg-security] use nosniff middleware
+2020-04-03 14:15:26,131 INFO 89912 [egg-security] use xssProtection middleware
+2020-04-03 14:15:26,131 INFO 89912 [egg-security] use xframe middleware
+2020-04-03 14:15:26,131 INFO 89912 [egg-security] use dta middleware
+2020-04-03 14:15:26,131 INFO 89912 [egg-security] compose 7 middlewares into one security middleware
+2020-04-03 14:15:26,142 INFO 89912 [egg:core] dump config after load, 7ms
+2020-04-03 14:15:26,155 INFO 89912 [egg-watcher:application] watcher start success
+2020-04-03 14:15:26,162 INFO 89912 [egg:core] dump config after ready, 5ms
+2020-04-03 14:15:43,854 INFO 89937 [egg:logger] init all loggers with options: {"dir":"/Users/apple/Documents/xiangmu/node/Website-tool/website-server/logs/website-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"website-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-03 14:15:43,878 INFO 89937 [egg-multipart] stream mode enable
+2020-04-03 14:15:44,277 INFO 89937 [egg-static] starting static serve /public/ -> /Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/public
+2020-04-03 14:15:44,279 INFO 89937 [egg-security] use csrf middleware
+2020-04-03 14:15:44,279 INFO 89937 [egg-security] use methodnoallow middleware
+2020-04-03 14:15:44,279 INFO 89937 [egg-security] use noopen middleware
+2020-04-03 14:15:44,280 INFO 89937 [egg-security] use nosniff middleware
+2020-04-03 14:15:44,280 INFO 89937 [egg-security] use xssProtection middleware
+2020-04-03 14:15:44,280 INFO 89937 [egg-security] use xframe middleware
+2020-04-03 14:15:44,281 INFO 89937 [egg-security] use dta middleware
+2020-04-03 14:15:44,281 INFO 89937 [egg-security] compose 7 middlewares into one security middleware
+2020-04-03 14:15:44,290 INFO 89937 [egg:core] dump config after load, 4ms
+2020-04-03 14:15:44,302 INFO 89937 [egg-watcher:application] watcher start success
+2020-04-03 14:15:44,308 INFO 89937 [egg:core] dump config after ready, 5ms
+2020-04-03 14:16:48,544 INFO 89956 [egg:logger] init all loggers with options: {"dir":"/Users/apple/Documents/xiangmu/node/Website-tool/website-server/logs/website-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"website-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-03 14:16:48,567 INFO 89956 [egg-multipart] stream mode enable
+2020-04-03 14:16:48,808 INFO 89956 [egg-static] starting static serve /public/ -> /Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/public
+2020-04-03 14:16:48,810 INFO 89956 [egg-security] use csrf middleware
+2020-04-03 14:16:48,811 INFO 89956 [egg-security] use methodnoallow middleware
+2020-04-03 14:16:48,811 INFO 89956 [egg-security] use noopen middleware
+2020-04-03 14:16:48,812 INFO 89956 [egg-security] use nosniff middleware
+2020-04-03 14:16:48,812 INFO 89956 [egg-security] use xssProtection middleware
+2020-04-03 14:16:48,812 INFO 89956 [egg-security] use xframe middleware
+2020-04-03 14:16:48,813 INFO 89956 [egg-security] use dta middleware
+2020-04-03 14:16:48,813 INFO 89956 [egg-security] compose 7 middlewares into one security middleware
+2020-04-03 14:16:48,822 INFO 89956 [egg:core] dump config after load, 5ms
+2020-04-03 14:16:48,831 INFO 89956 [egg-watcher:application] watcher start success
+2020-04-03 14:16:48,839 INFO 89956 [egg:core] dump config after ready, 5ms
+2020-04-03 14:20:01,418 INFO 90048 [egg:logger] init all loggers with options: {"dir":"/Users/apple/Documents/xiangmu/node/Website-tool/website-server/logs/website-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"website-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-03 14:20:01,441 INFO 90048 [egg-multipart] stream mode enable
+2020-04-03 14:20:01,697 INFO 90048 [egg-static] starting static serve /public/ -> /Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/public
+2020-04-03 14:20:01,699 INFO 90048 [egg-security] use csrf middleware
+2020-04-03 14:20:01,699 INFO 90048 [egg-security] use methodnoallow middleware
+2020-04-03 14:20:01,700 INFO 90048 [egg-security] use noopen middleware
+2020-04-03 14:20:01,700 INFO 90048 [egg-security] use nosniff middleware
+2020-04-03 14:20:01,701 INFO 90048 [egg-security] use xssProtection middleware
+2020-04-03 14:20:01,701 INFO 90048 [egg-security] use xframe middleware
+2020-04-03 14:20:01,701 INFO 90048 [egg-security] use dta middleware
+2020-04-03 14:20:01,702 INFO 90048 [egg-security] compose 7 middlewares into one security middleware
+2020-04-03 14:20:01,715 INFO 90048 [egg:core] dump config after load, 4ms
+2020-04-03 14:20:01,724 INFO 90048 [egg-watcher:application] watcher start success
+2020-04-03 14:20:01,732 INFO 90048 [egg:core] dump config after ready, 5ms
+2020-04-03 14:20:02,244 INFO 90049 [egg:logger] init all loggers with options: {"dir":"/Users/apple/Documents/xiangmu/node/Website-tool/website-server/logs/website-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"website-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-03 14:20:02,268 INFO 90049 [egg-multipart] stream mode enable
+2020-04-03 14:20:02,521 INFO 90049 [egg-static] starting static serve /public/ -> /Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/public
+2020-04-03 14:20:02,523 INFO 90049 [egg-security] use csrf middleware
+2020-04-03 14:20:02,523 INFO 90049 [egg-security] use methodnoallow middleware
+2020-04-03 14:20:02,524 INFO 90049 [egg-security] use noopen middleware
+2020-04-03 14:20:02,524 INFO 90049 [egg-security] use nosniff middleware
+2020-04-03 14:20:02,525 INFO 90049 [egg-security] use xssProtection middleware
+2020-04-03 14:20:02,525 INFO 90049 [egg-security] use xframe middleware
+2020-04-03 14:20:02,525 INFO 90049 [egg-security] use dta middleware
+2020-04-03 14:20:02,525 INFO 90049 [egg-security] compose 7 middlewares into one security middleware
+2020-04-03 14:20:02,544 INFO 90049 [egg:core] dump config after load, 7ms
+2020-04-03 14:20:02,581 INFO 90049 [egg-watcher:application] watcher start success
+2020-04-03 14:20:03,235 INFO 90050 [egg:logger] init all loggers with options: {"dir":"/Users/apple/Documents/xiangmu/node/Website-tool/website-server/logs/website-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"website-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-03 14:20:03,268 INFO 90050 [egg-multipart] stream mode enable
+2020-04-03 14:20:03,613 INFO 90050 [egg-static] starting static serve /public/ -> /Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/public
+2020-04-03 14:20:03,615 INFO 90050 [egg-security] use csrf middleware
+2020-04-03 14:20:03,616 INFO 90050 [egg-security] use methodnoallow middleware
+2020-04-03 14:20:03,616 INFO 90050 [egg-security] use noopen middleware
+2020-04-03 14:20:03,618 INFO 90050 [egg-security] use nosniff middleware
+2020-04-03 14:20:03,618 INFO 90050 [egg-security] use xssProtection middleware
+2020-04-03 14:20:03,618 INFO 90050 [egg-security] use xframe middleware
+2020-04-03 14:20:03,619 INFO 90050 [egg-security] use dta middleware
+2020-04-03 14:20:03,619 INFO 90050 [egg-security] compose 7 middlewares into one security middleware
+2020-04-03 14:20:03,631 INFO 90050 [egg:core] dump config after load, 8ms
+2020-04-03 14:20:03,641 INFO 90050 [egg-watcher:application] watcher start success
+2020-04-03 14:20:03,658 INFO 90050 [egg:core] dump config after ready, 12ms

@@ -1,5 +1,5 @@
 <template>
-  <div class="Base" v-bind:style="componentData && componentData.style || {}">
+  <div class="Base" v-bind:style="componentData && componentData.baseStyle || {}">
     <component
       v-if="componentData"
       :key="item.id"
