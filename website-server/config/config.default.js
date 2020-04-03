@@ -13,7 +13,8 @@ module.exports = appInfo => {
   config.keys = appInfo.name + '_websiteTool';
 
   config.middleware = [
-    'ua'
+    'ua',
+    'errorHandler'
   ];
 
   config.ua = {
@@ -21,6 +22,12 @@ module.exports = appInfo => {
       /Baiduspider/i,
     ]
   };
+
+  config.cors = {
+    origin: ctx => ctx.get('origin'),
+    credentials: true,
+    allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH'
+  }
 
   return config;
 };

@@ -1,3 +1,4 @@
 export default {
-    templete: {},
+    configList: [],
+    componentDatas: {}
 };

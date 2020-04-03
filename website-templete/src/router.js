@@ -21,6 +21,7 @@ export function createRouter() {
       {
         path: '/',
         name: 'home',
+        redirect: '/templete',
         component: () => import(/* webpackChunkName: 'home' */'@/App.vue')
       },
       {

@@ -5,11 +5,11 @@ const createTemplateParams = {
   },
   payload1: {
     id: 1,
-    name: '❤️--Vue模板--❤️',
+    name: '❤️Vue模板❤️',
     createTime: date,
     updateTime: date,
-    files: '/1/website-tool-template.zip',
-    thumbnail: 'https://avatars3.githubusercontent.com/u/6128107',
+    files: '',
+    thumbnail: '',
   }
 };
 

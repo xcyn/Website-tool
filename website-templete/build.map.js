@@ -1,3 +1,4 @@
+const webpack = require("webpack");
 const VueSSRClientPlugin = require("vue-server-renderer/client-plugin");
 const VueSSRServerPlugin = require("vue-server-renderer/server-plugin");
 const nodeExternals = require("webpack-node-externals");
@@ -25,10 +26,16 @@ const externalsMap = {
 }
 const vuePluginMap = {
   server: [
-    new VueSSRServerPlugin()
+    new VueSSRServerPlugin(),
+    new webpack.DefinePlugin({
+      "isNodeEnv": JSON.stringify(true),
+    })
   ],
   client: [
-    new VueSSRClientPlugin()
+    new VueSSRClientPlugin(),
+    new webpack.DefinePlugin({
+      "isNodeEnv": JSON.stringify(false),
+    })
   ],
 }
 

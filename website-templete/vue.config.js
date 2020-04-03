@@ -4,7 +4,6 @@ const { targetMap, nodeMap, libraryTargetMap,
   splitChunksMap, externalsMap, vuePluginMap } = require('./build.map')
 const TARGET_NODE = process.env.BUILD_TARGET === "node";
 const target = TARGET_NODE ? "server" : "client";
-
 module.exports = {
   lintOnSave: false,
   assetsDir: "static",
