@@ -5,9 +5,9 @@
   + egg生态、vue全家桶、 docker部署
   + [egg文档](https://eggjs.github.io/)
 + 原理图
-  ![原理图](./website-client/src/assets/原理图.png)
+  ![原理图](./website-client/src/assets/principle.png)
 + templete层案例
-  ![模版层](./website-client/src/assets/模版层.png)
+  ![模版层](./website-client/src/assets/templete.png)
   + 配置数据案例:
     + templete
     ```
