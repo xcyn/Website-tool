@@ -406,3 +406,1099 @@ name: "ClusterClientNoResponseError"
 pid: 80135
 hostname: localhost
 
+2020-04-03 19:59:34,944 ERROR 98253 [egg-mongoose] mongodb://localhost:27017/statistics disconnected
+2020-04-03 19:59:34,945 ERROR 98253 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98253
+hostname: localhost
+
+2020-04-03 19:59:34,947 ERROR 98253 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98253
+hostname: localhost
+
+2020-04-03 19:59:34,950 ERROR 98253 [-/127.0.0.1/-/0ms GET /] nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98253
+hostname: localhost
+
+2020-04-03 20:00:05,761 ERROR 98305 [egg-mongoose] mongodb://localhost:27017/statistics disconnected
+2020-04-03 20:00:05,763 ERROR 98305 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98305
+hostname: localhost
+
+2020-04-03 20:00:05,764 ERROR 98305 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98305
+hostname: localhost
+
+2020-04-03 20:00:05,766 ERROR 98305 [-/127.0.0.1/-/0ms GET /] nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98305
+hostname: localhost
+
+2020-04-03 20:00:35,551 ERROR 98316 [egg-mongoose] mongodb://localhost:27017/statistics disconnected
+2020-04-03 20:00:35,553 ERROR 98316 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98316
+hostname: localhost
+
+2020-04-03 20:00:35,554 ERROR 98316 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98316
+hostname: localhost
+
+2020-04-03 20:00:35,556 ERROR 98316 [-/127.0.0.1/-/0ms GET /] nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98316
+hostname: localhost
+
+2020-04-03 20:00:42,853 ERROR 98325 [egg-mongoose] mongodb://localhost:27017/statistics disconnected
+2020-04-03 20:00:42,855 ERROR 98325 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98325
+hostname: localhost
+
+2020-04-03 20:00:42,856 ERROR 98325 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98325
+hostname: localhost
+
+2020-04-03 20:00:42,859 ERROR 98325 [-/127.0.0.1/-/0ms GET /] nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98325
+hostname: localhost
+
+2020-04-03 20:01:06,393 ERROR 98361 [egg-mongoose] mongodb://localhost:27017/statistics disconnected
+2020-04-03 20:01:06,394 ERROR 98361 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98361
+hostname: localhost
+
+2020-04-03 20:01:06,398 ERROR 98361 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98361
+hostname: localhost
+
+2020-04-03 20:01:06,400 ERROR 98361 [-/127.0.0.1/-/0ms GET /] nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98361
+hostname: localhost
+
+2020-04-03 20:01:18,507 ERROR 98386 [egg-mongoose] mongodb://localhost:27017/statistics disconnected
+2020-04-03 20:01:18,508 ERROR 98386 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98386
+hostname: localhost
+
+2020-04-03 20:01:18,510 ERROR 98386 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98386
+hostname: localhost
+
+2020-04-03 20:01:18,512 ERROR 98386 [-/127.0.0.1/-/0ms GET /] nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98386
+hostname: localhost
+
+2020-04-03 20:01:48,006 ERROR 98411 [egg-mongoose] mongodb://localhost:27017/statistics disconnected
+2020-04-03 20:01:48,008 ERROR 98411 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98411
+hostname: localhost
+
+2020-04-03 20:01:48,010 ERROR 98411 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98411
+hostname: localhost
+
+2020-04-03 20:01:48,012 ERROR 98411 [-/127.0.0.1/-/0ms GET /] nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98411
+hostname: localhost
+
+2020-04-03 20:02:12,060 ERROR 98437 [egg-mongoose] mongodb://localhost:27017/statistics disconnected
+2020-04-03 20:02:12,062 ERROR 98437 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98437
+hostname: localhost
+
+2020-04-03 20:02:12,063 ERROR 98437 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98437
+hostname: localhost
+
+2020-04-03 20:02:12,065 ERROR 98437 [-/127.0.0.1/-/0ms GET /] nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98437
+hostname: localhost
+
+2020-04-03 20:04:33,519 ERROR 98502 [egg-mongoose] mongodb://localhost:27017/statistics disconnected
+2020-04-03 20:04:33,521 ERROR 98502 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98502
+hostname: localhost
+
+2020-04-03 20:04:33,529 ERROR 98502 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98502
+hostname: localhost
+
+2020-04-03 20:04:33,533 ERROR 98502 [-/127.0.0.1/-/0ms GET /] nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98502
+hostname: localhost
+
+2020-04-03 20:05:04,321 ERROR 98534 [egg-mongoose] mongodb://localhost:27017/statistics disconnected
+2020-04-03 20:05:04,323 ERROR 98534 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98534
+hostname: localhost
+
+2020-04-03 20:05:04,325 ERROR 98534 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98534
+hostname: localhost
+
+2020-04-03 20:05:04,327 ERROR 98534 [-/127.0.0.1/-/1ms GET /] nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98534
+hostname: localhost
+
+2020-04-03 20:06:01,709 ERROR 98564 [egg-mongoose] mongodb://localhost:27017/statistics disconnected
+2020-04-03 20:06:01,711 ERROR 98564 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98564
+hostname: localhost
+
+2020-04-03 20:06:01,713 ERROR 98564 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98564
+hostname: localhost
+
+2020-04-03 20:06:01,722 ERROR 98564 [-/127.0.0.1/-/0ms GET /] nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98564
+hostname: localhost
+
+2020-04-03 20:06:32,521 ERROR 98591 [egg-mongoose] mongodb://localhost:27017/statistics disconnected
+2020-04-03 20:06:32,523 ERROR 98591 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98591
+hostname: localhost
+
+2020-04-03 20:06:32,524 ERROR 98591 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98591
+hostname: localhost
+
+2020-04-03 20:06:32,526 ERROR 98591 [-/127.0.0.1/-/0ms GET /] nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98591
+hostname: localhost
+
+2020-04-03 20:07:55,418 ERROR 98671 [egg-mongoose] mongodb://localhost:27017/statistics disconnected
+2020-04-03 20:07:55,420 ERROR 98671 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98671
+hostname: localhost
+
+2020-04-03 20:07:55,422 ERROR 98671 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98671
+hostname: localhost
+
+2020-04-03 20:07:55,424 ERROR 98671 [-/127.0.0.1/-/0ms GET /] nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98671
+hostname: localhost
+
+2020-04-03 20:10:57,529 ERROR 98760 [egg-mongoose] mongodb://xiongchuanyu:******@localhost:27018/website-docker?authSource=admin disconnected
+2020-04-03 20:10:57,531 ERROR 98760 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27018
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27018"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98760
+hostname: localhost
+
+2020-04-03 20:10:57,532 ERROR 98760 nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27018
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27018"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98760
+hostname: localhost
+
+2020-04-03 20:10:57,534 ERROR 98760 [-/127.0.0.1/-/0ms GET /] nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27018
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27018"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 98760
+hostname: localhost
+
+2020-04-03 20:47:59,953 ERROR 98851 nodejs.ClusterClientNoResponseError: client no response in 1825751ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 98851
+hostname: localhost
+
+2020-04-03 21:43:01,635 ERROR 98851 nodejs.ClusterClientNoResponseError: client no response in 2081384ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 98851
+hostname: localhost
+
+2020-04-03 22:19:48,819 ERROR 98851 nodejs.ClusterClientNoResponseError: client no response in 2167719ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 98851
+hostname: localhost
+
+2020-04-03 22:28:17,483 ERROR 99669 [-/127.0.0.1/-/0ms GET /] nodejs.Error: websitePages copy is not match 'a-z0-9_-' in websitePages copy.js
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:234:13
+    at Array.map (<anonymous>)
+    at defaultCamelize (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:232:21)
+    at getProperties (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:193:10)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:154:28)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+
+pid: 99669
+hostname: localhost
+
+2020-04-03 22:28:44,392 ERROR 99707 [-/127.0.0.1/-/0ms GET /] nodejs.OverwriteModelError: Cannot overwrite `websitePages` model once compiled.
+    at new OverwriteModelError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/overwriteModel.js:20:11)
+    at Mongoose.model (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:522:13)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/model/websitePages.js:27:19)
+    at getExports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cannot overwrite `websitePages` model once compiled."
+name: "OverwriteModelError"
+pid: 99707
+hostname: localhost
+
+2020-04-03 22:29:15,766 ERROR 99748 [-/127.0.0.1/-/0ms GET /] nodejs.OverwriteModelError: Cannot overwrite `websitePages` model once compiled.
+    at new OverwriteModelError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/overwriteModel.js:20:11)
+    at Mongoose.model (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:522:13)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/model/websitePages.js:27:19)
+    at getExports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cannot overwrite `websitePages` model once compiled."
+name: "OverwriteModelError"
+pid: 99748
+hostname: localhost
+
+2020-04-03 22:29:32,047 ERROR 99778 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: websitePageSchema is not defined
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/model/websitePageConfigs.js:27:47)
+    at getExports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+
+pid: 99778
+hostname: localhost
+
+2020-04-03 23:04:17,476 ERROR 1840 nodejs.ClusterClientNoResponseError: client no response in 61269ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1840
+hostname: localhost
+
+2020-04-03 23:08:37,499 ERROR 1840 nodejs.ClusterClientNoResponseError: client no response in 69412ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1840
+hostname: localhost
+
+2020-04-03 23:45:37,387 ERROR 2980 nodejs.ClusterClientNoResponseError: client no response in 78432ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 2980
+hostname: localhost
+

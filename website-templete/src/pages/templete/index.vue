@@ -27,7 +27,7 @@ export default {
     data() {
         return {
           // 用于管控版本
-          pageId: this.$route.query.pageId
+          pageId: this.$route.query.pageId || 1
         };
     },
     serverPrefetch() {

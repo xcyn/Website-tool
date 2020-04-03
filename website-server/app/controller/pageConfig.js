@@ -7,8 +7,8 @@ class PageConfigController extends Controller {
       data: ctx.helper.getUuid()
     });
   }
-  
-  async getPageconfigList() {
+
+  async getPageComponentList() {
     const { ctx } = this;
     ctx.body = ctx.helper.res({
       data: [
@@ -20,7 +20,7 @@ class PageConfigController extends Controller {
         {
           id: 3,
           name: 'x-CellGroup',
-          message: '导航'
+          message: '单元格'
         },
         {
           id: 5,
@@ -33,7 +33,46 @@ class PageConfigController extends Controller {
           message: '按钮'
         }
       ]
-    });;
+    });
+  }
+  
+  async getPageconfigList() {
+    try {
+      const { ctx, service } = this;
+      const data = await service.websitePageConfigServer.queryPageConfigOne(ctx.request.query);
+      ctx.body = ctx.helper.res({
+        data,
+        errmsg: '请求数据成功'
+      })
+    } catch(err) {
+      throw err
+    }
+  }
+
+  async savePageconfigList() {
+    try {
+      const { ctx, service } = this;
+      const data = await service.websitePageConfigServer.savePageConfigs(ctx.request.body);
+      ctx.body = ctx.helper.res({
+        data,
+        errmsg: '保存页面组件配置成功'
+      })
+    } catch(err) {
+      throw err
+    }
+  }
+
+  async updatePageconfigList() {
+    try {
+      const { ctx, service } = this;
+      const data = await service.websitePageConfigServer.updatePageConfigs(ctx.request.body);
+      ctx.body = ctx.helper.res({
+        data,
+        errmsg: '更新页面组件配置成功'
+      })
+    } catch(err) {
+      throw err
+    }
   }
 
   async getPageComponentDatas() {
