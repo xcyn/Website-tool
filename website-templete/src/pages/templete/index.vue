@@ -48,7 +48,7 @@ export default {
         this.SET_PAGEINFO(pageInfo)
       },
       async getConfigList() {
-        const res = await axios.get(`${baseUrl}/pageConfig/getPageconfigList?pageId=${this.pageId}`)
+        const res = await axios.get(`${baseUrl}/pageConfig/getPageCpDatas?pageId=${this.pageId}`)
         const configList = res.data.data || []
         this.SET_CONFIGLIST(configList)
       },
@@ -61,6 +61,7 @@ export default {
     created() {
     },
     async mounted() {
+      console.log('getterComponentDatas', this.getterComponentDatas)
       document.body.style.backgroundColor = `rgba(${this.getterPageInfo.backgroundColor})`
       document.title = this.getterPageInfo.title
     }

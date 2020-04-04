@@ -4,8 +4,30 @@
 + 主要技术栈
   + egg生态、vue全家桶、 docker部署
   + [egg文档](https://eggjs.github.io/)
++ 项目启动
+  + 环境依赖: docker
+  ```
+    cd /website-docker
+    docker-compose up -d
+    cd /website-server
+    npm run dev
+    cd /website-templete
+    npm run ssr
+    cd /website-client
+    npm run save 初始化导入mongodb
+    npm run serve
+  ```
 + 原理图
   ![原理图](https://graph.baidu.com/resource/121d6d73565c34b6e4c6101585895640.jpg)
++ client编辑页面
+  ![client端](https://graph.baidu.com/resource/12172f318dee921ef62ca01586003732.jpg)
+  + 表结构设计
+    + 主要设计3张表
+    + websitepages做页面版本控制，包含每一个页面的编辑和删除及发布
+    + websitepageconfigs 主要是做全局配置数据维护，组件区配置、页面配置
+    + websitecomponents 主要是每个版本页面的数据，包含布局区域组件数据，组件配置的数据，页面配置数据
+  + 预览页面通过iframe起一个模版页面，做实时更新
+  + 页面管理主要是维护每一个页面版本的管理页面
 + templete层案例
   ![模版层](https://graph.baidu.com/resource/12141f6ffd6382b19adaf01585895653.jpg)
   + 配置数据案例:
@@ -22,22 +44,90 @@
       {
         id: 1,
         name: 'x-NavBar',
-        message: '导航'
+        message: '导航组件',
+        schema: {
+          title: {
+            type: 'input',
+            label: '标题'
+          },
+          leftText: {
+            type: 'input',
+            label: '标题左侧文案'
+          },
+          rightText: {
+            type: 'input',
+            label: '标题右侧文案'
+          },
+          baseStyle: {
+            type: 'input',
+            label: '容器css样式'
+          }
+        }
       },
       {
         id: 3,
-        name: 'x-CellGroup',
-        message: '导航'
+        name: 'x-Cell',
+        message: '单元格组件',
+        schema: {
+          title: {
+            type: 'input',
+            label: '单元格组件标题'
+          },
+          value: {
+            type: 'input',
+            label: '单元格组件右侧文案'
+          },
+          baseStyle: {
+            type: 'input',
+            label: '容器css样式'
+          },
+          size: {
+            type: 'input',
+            label: 'large(支持 large、small)'
+          },
+          label: {
+            type: 'input',
+            label: '单元格组件描述信息'
+          }
+        }
       },
       {
         id: 5,
         name: 'x-Image',
-        message: '图片'
+        message: '图片组件',
+        schema: {
+          baseStyle: {
+            type: 'input',
+            label: '容器css样式'
+          },
+          src: {
+            type: 'input',
+            label: '图片链接地址'
+          },
+        }
       },
       {
         id: 2,
         name: 'x-Button',
-        message: '按钮'
+        message: '按钮组件',
+        schema: {
+          type: {
+            type: 'input',
+            label: '按钮类型(支持default、primary、info、warning、danger五种类型)'
+          },
+          baseStyle: {
+            type: 'input',
+            label: '容器css样式'
+          },
+          style: {
+            type: 'input',
+            label: '按钮样式'
+          },
+          value: {
+            type: 'input',
+            label: '按钮文案'
+          }
+        }
       }
     ]
     const componentDatas = {

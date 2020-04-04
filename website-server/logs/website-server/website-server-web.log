@@ -268,8 +268,8 @@ code: "ERR_INVALID_OPT_VALUE"
 pid: 37992
 hostname: localhost
 
-2020-04-03 19:26:50,616 WARN 96328 [-/::1/-/17ms POST /pageConfig/savePageconfigList?pageId=1] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
-2020-04-03 19:26:50,618 WARN 96328 [-/::1/-/18ms POST /pageConfig/savePageconfigList?pageId=1] nodejs.ForbiddenError: missing csrf token
+2020-04-03 19:26:50,616 WARN 96328 [-/::1/-/17ms POST /pageConfig/savePageCpDatas?pageId=1] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-04-03 19:26:50,618 WARN 96328 [-/::1/-/18ms POST /pageConfig/savePageCpDatas?pageId=1] nodejs.ForbiddenError: missing csrf token
     at Object.throw (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa/lib/context.js:97:11)
     at Object.assertCsrf (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-security/app/extend/context.js:153:19)
     at csrf (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
@@ -291,8 +291,8 @@ headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-
 pid: 96328
 hostname: localhost
 
-2020-04-03 19:29:19,433 WARN 97316 [-/::1/-/14ms POST /pageConfig/savePageconfigList?pageId=1] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
-2020-04-03 19:29:19,435 WARN 97316 [-/::1/-/15ms POST /pageConfig/savePageconfigList?pageId=1] nodejs.ForbiddenError: missing csrf token
+2020-04-03 19:29:19,433 WARN 97316 [-/::1/-/14ms POST /pageConfig/savePageCpDatas?pageId=1] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-04-03 19:29:19,435 WARN 97316 [-/::1/-/15ms POST /pageConfig/savePageCpDatas?pageId=1] nodejs.ForbiddenError: missing csrf token
     at Object.throw (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa/lib/context.js:97:11)
     at Object.assertCsrf (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-security/app/extend/context.js:153:19)
     at csrf (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
@@ -314,8 +314,8 @@ headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-
 pid: 97316
 hostname: localhost
 
-2020-04-03 19:29:38,892 WARN 97337 [-/::1/-/12ms POST /pageConfig/savePageconfigList?pageId=1] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
-2020-04-03 19:29:38,894 WARN 97337 [-/::1/-/13ms POST /pageConfig/savePageconfigList?pageId=1] nodejs.ForbiddenError: missing csrf token
+2020-04-03 19:29:38,892 WARN 97337 [-/::1/-/12ms POST /pageConfig/savePageCpDatas?pageId=1] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-04-03 19:29:38,894 WARN 97337 [-/::1/-/13ms POST /pageConfig/savePageCpDatas?pageId=1] nodejs.ForbiddenError: missing csrf token
     at Object.throw (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa/lib/context.js:97:11)
     at Object.assertCsrf (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-security/app/extend/context.js:153:19)
     at csrf (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
@@ -337,8 +337,8 @@ headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-
 pid: 97337
 hostname: localhost
 
-2020-04-03 19:30:08,141 WARN 97350 [-/::1/-/9ms POST /pageConfig/savePageconfigList?pageId=1] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
-2020-04-03 19:30:08,142 WARN 97350 [-/::1/-/10ms POST /pageConfig/savePageconfigList?pageId=1] nodejs.ForbiddenError: missing csrf token
+2020-04-03 19:30:08,141 WARN 97350 [-/::1/-/9ms POST /pageConfig/savePageCpDatas?pageId=1] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-04-03 19:30:08,142 WARN 97350 [-/::1/-/10ms POST /pageConfig/savePageCpDatas?pageId=1] nodejs.ForbiddenError: missing csrf token
     at Object.throw (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa/lib/context.js:97:11)
     at Object.assertCsrf (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-security/app/extend/context.js:153:19)
     at csrf (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
@@ -360,8 +360,8 @@ headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-
 pid: 97350
 hostname: localhost
 
-2020-04-03 19:30:56,850 WARN 97380 [-/::1/-/9ms POST /pageConfig/savePageconfigList?pageId=1] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
-2020-04-03 19:30:56,851 WARN 97380 [-/::1/-/10ms POST /pageConfig/savePageconfigList?pageId=1] nodejs.ForbiddenError: missing csrf token
+2020-04-03 19:30:56,850 WARN 97380 [-/::1/-/9ms POST /pageConfig/savePageCpDatas?pageId=1] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-04-03 19:30:56,851 WARN 97380 [-/::1/-/10ms POST /pageConfig/savePageCpDatas?pageId=1] nodejs.ForbiddenError: missing csrf token
     at Object.throw (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa/lib/context.js:97:11)
     at Object.assertCsrf (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-security/app/extend/context.js:153:19)
     at csrf (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
@@ -383,8 +383,8 @@ headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-
 pid: 97380
 hostname: localhost
 
-2020-04-03 19:31:07,793 WARN 97380 [-/::1/-/1ms POST /pageConfig/savePageconfigList?pageId=1] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
-2020-04-03 19:31:07,793 WARN 97380 [-/::1/-/1ms POST /pageConfig/savePageconfigList?pageId=1] nodejs.ForbiddenError: missing csrf token
+2020-04-03 19:31:07,793 WARN 97380 [-/::1/-/1ms POST /pageConfig/savePageCpDatas?pageId=1] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-04-03 19:31:07,793 WARN 97380 [-/::1/-/1ms POST /pageConfig/savePageCpDatas?pageId=1] nodejs.ForbiddenError: missing csrf token
     at Object.throw (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa/lib/context.js:97:11)
     at Object.assertCsrf (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-security/app/extend/context.js:153:19)
     at csrf (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
@@ -406,8 +406,8 @@ headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-
 pid: 97380
 hostname: localhost
 
-2020-04-03 19:32:42,061 WARN 97457 [-/::1/-/13ms POST /pageConfig/savePageconfigList?pageId=1] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
-2020-04-03 19:32:42,062 WARN 97457 [-/::1/-/14ms POST /pageConfig/savePageconfigList?pageId=1] nodejs.ForbiddenError: missing csrf token
+2020-04-03 19:32:42,061 WARN 97457 [-/::1/-/13ms POST /pageConfig/savePageCpDatas?pageId=1] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-04-03 19:32:42,062 WARN 97457 [-/::1/-/14ms POST /pageConfig/savePageCpDatas?pageId=1] nodejs.ForbiddenError: missing csrf token
     at Object.throw (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa/lib/context.js:97:11)
     at Object.assertCsrf (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-security/app/extend/context.js:153:19)
     at csrf (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
@@ -819,3 +819,700 @@ hostname: localhost
 pid: 99778
 hostname: localhost
 
+2020-04-04 11:39:07,777 ERROR 7887 [-/127.0.0.1/-/0ms GET /] nodejs.Error: websitePageConfigs copy is not match 'a-z0-9_-' in websitePageConfigs copy.js
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:234:13
+    at Array.map (<anonymous>)
+    at defaultCamelize (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:232:21)
+    at getProperties (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:193:10)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:154:28)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+
+pid: 7887
+hostname: localhost
+
+2020-04-04 11:39:46,635 ERROR 7945 [-/127.0.0.1/-/1ms GET /] nodejs.OverwriteModelError: Cannot overwrite `websitePageConfigs` model once compiled.
+    at new OverwriteModelError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/overwriteModel.js:20:11)
+    at Mongoose.model (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:522:13)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/model/websitePageConfigs.js:26:19)
+    at getExports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cannot overwrite `websitePageConfigs` model once compiled."
+name: "OverwriteModelError"
+pid: 7945
+hostname: localhost
+
+2020-04-04 11:40:24,354 ERROR 8006 [-/127.0.0.1/-/0ms GET /] nodejs.OverwriteModelError: Cannot overwrite `websitePageConfigs` model once compiled.
+    at new OverwriteModelError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/overwriteModel.js:20:11)
+    at Mongoose.model (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:522:13)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/model/websitePageConfigs.js:26:19)
+    at getExports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cannot overwrite `websitePageConfigs` model once compiled."
+name: "OverwriteModelError"
+pid: 8006
+hostname: localhost
+
+2020-04-04 11:40:59,597 ERROR 8052 [-/127.0.0.1/-/1ms GET /] nodejs.OverwriteModelError: Cannot overwrite `websitePageConfigs` model once compiled.
+    at new OverwriteModelError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/overwriteModel.js:20:11)
+    at Mongoose.model (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:522:13)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/model/websitePageConfigs.js:26:19)
+    at getExports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cannot overwrite `websitePageConfigs` model once compiled."
+name: "OverwriteModelError"
+pid: 8052
+hostname: localhost
+
+2020-04-04 11:41:55,700 ERROR 8122 [-/127.0.0.1/-/1ms GET /] nodejs.OverwriteModelError: Cannot overwrite `websitePageConfigs` model once compiled.
+    at new OverwriteModelError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/overwriteModel.js:20:11)
+    at Mongoose.model (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:522:13)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/model/websitePageConfigs.js:26:19)
+    at getExports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cannot overwrite `websitePageConfigs` model once compiled."
+name: "OverwriteModelError"
+pid: 8122
+hostname: localhost
+
+2020-04-04 11:42:02,964 ERROR 8142 [-/127.0.0.1/-/0ms GET /] nodejs.OverwriteModelError: Cannot overwrite `websitePageConfigs` model once compiled.
+    at new OverwriteModelError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/overwriteModel.js:20:11)
+    at Mongoose.model (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:522:13)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/model/websitePageConfigs.js:26:19)
+    at getExports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cannot overwrite `websitePageConfigs` model once compiled."
+name: "OverwriteModelError"
+pid: 8142
+hostname: localhost
+
+2020-04-04 11:42:03,814 ERROR 8144 [-/127.0.0.1/-/0ms GET /] nodejs.OverwriteModelError: Cannot overwrite `websitePageConfigs` model once compiled.
+    at new OverwriteModelError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/overwriteModel.js:20:11)
+    at Mongoose.model (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:522:13)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/model/websitePageConfigs.js:26:19)
+    at getExports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cannot overwrite `websitePageConfigs` model once compiled."
+name: "OverwriteModelError"
+pid: 8144
+hostname: localhost
+
+2020-04-04 11:43:25,743 ERROR 8241 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: websitePageConfigSchema is not defined
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/model/websiteComponents.js:22:47)
+    at getExports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+
+pid: 8241
+hostname: localhost
+
+2020-04-04 12:12:51,635 ERROR 10246 [-/127.0.0.1/-/0ms GET /] nodejs.Error: websitePages copy is not match 'a-z0-9_-' in websitePages copy.js
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:234:13
+    at Array.map (<anonymous>)
+    at defaultCamelize (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:232:21)
+    at getProperties (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:193:10)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:154:28)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+
+pid: 10246
+hostname: localhost
+
+2020-04-04 12:12:57,029 ERROR 10258 [-/127.0.0.1/-/0ms GET /] nodejs.OverwriteModelError: Cannot overwrite `websitePages` model once compiled.
+    at new OverwriteModelError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/overwriteModel.js:20:11)
+    at Mongoose.model (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:522:13)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/model/websitePages2.js:27:19)
+    at getExports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cannot overwrite `websitePages` model once compiled."
+name: "OverwriteModelError"
+pid: 10258
+hostname: localhost
+
+2020-04-04 12:43:26,652 ERROR 12634 [-/127.0.0.1/-/0ms GET /] nodejs.Error: websiteComponents copy is not match 'a-z0-9_-' in websiteComponents copy.js
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:234:13
+    at Array.map (<anonymous>)
+    at defaultCamelize (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:232:21)
+    at getProperties (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:193:10)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:154:28)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+
+pid: 12634
+hostname: localhost
+
+2020-04-04 12:43:45,306 ERROR 12666 [-/127.0.0.1/-/0ms GET /] nodejs.OverwriteModelError: Cannot overwrite `websiteComponents` model once compiled.
+    at new OverwriteModelError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/overwriteModel.js:20:11)
+    at Mongoose.model (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:522:13)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/model/websitePage.js:27:19)
+    at getExports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cannot overwrite `websiteComponents` model once compiled."
+name: "OverwriteModelError"
+pid: 12666
+hostname: localhost
+
+2020-04-04 13:08:50,954 ERROR 14136 [-/127.0.0.1/-/1ms GET /] nodejs.Error: websitePages copy is not match 'a-z0-9_-' in websitePages copy.js
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:234:13
+    at Array.map (<anonymous>)
+    at defaultCamelize (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:232:21)
+    at getProperties (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:193:10)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:154:28)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+
+pid: 14136
+hostname: localhost
+
+2020-04-04 13:09:26,540 ERROR 14196 [-/127.0.0.1/-/0ms GET /] nodejs.OverwriteModelError: Cannot overwrite `websitePages` model once compiled.
+    at new OverwriteModelError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/overwriteModel.js:20:11)
+    at Mongoose.model (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:522:13)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/model/websitePages.js:27:19)
+    at getExports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cannot overwrite `websitePages` model once compiled."
+name: "OverwriteModelError"
+pid: 14196
+hostname: localhost
+
+2020-04-04 13:09:57,871 ERROR 14236 [-/127.0.0.1/-/0ms GET /] nodejs.OverwriteModelError: Cannot overwrite `websiteComponents` model once compiled.
+    at new OverwriteModelError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/overwriteModel.js:20:11)
+    at Mongoose.model (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:522:13)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/model/websitePage.js:27:19)
+    at getExports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cannot overwrite `websiteComponents` model once compiled."
+name: "OverwriteModelError"
+pid: 14236
+hostname: localhost
+
+2020-04-04 13:10:04,129 ERROR 14255 [-/127.0.0.1/-/0ms GET /] nodejs.OverwriteModelError: Cannot overwrite `websiteComponents` model once compiled.
+    at new OverwriteModelError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/overwriteModel.js:20:11)
+    at Mongoose.model (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:522:13)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/model/websitePage.js:27:19)
+    at getExports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cannot overwrite `websiteComponents` model once compiled."
+name: "OverwriteModelError"
+pid: 14255
+hostname: localhost
+
+2020-04-04 13:10:41,538 ERROR 14299 [-/127.0.0.1/-/0ms GET /] nodejs.OverwriteModelError: Cannot overwrite `websiteComponents` model once compiled.
+    at new OverwriteModelError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/overwriteModel.js:20:11)
+    at Mongoose.model (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:522:13)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/model/websitePage.js:27:19)
+    at getExports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cannot overwrite `websiteComponents` model once compiled."
+name: "OverwriteModelError"
+pid: 14299
+hostname: localhost
+
+2020-04-04 13:10:49,232 ERROR 14321 [-/127.0.0.1/-/0ms GET /] nodejs.OverwriteModelError: Cannot overwrite `websiteComponents` model once compiled.
+    at new OverwriteModelError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/overwriteModel.js:20:11)
+    at Mongoose.model (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:522:13)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/model/websitePage.js:27:19)
+    at getExports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cannot overwrite `websiteComponents` model once compiled."
+name: "OverwriteModelError"
+pid: 14321
+hostname: localhost
+
+2020-04-04 13:13:46,969 ERROR 14479 [-/127.0.0.1/-/0ms GET /] nodejs.OverwriteModelError: Cannot overwrite `websiteComponents` model once compiled.
+    at new OverwriteModelError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/overwriteModel.js:20:11)
+    at Mongoose.model (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:522:13)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/model/websitePage.js:27:19)
+    at getExports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cannot overwrite `websiteComponents` model once compiled."
+name: "OverwriteModelError"
+pid: 14479
+hostname: localhost
+
+2020-04-04 13:14:14,062 ERROR 14520 [-/127.0.0.1/-/0ms GET /] nodejs.OverwriteModelError: Cannot overwrite `websiteComponents` model once compiled.
+    at new OverwriteModelError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/overwriteModel.js:20:11)
+    at Mongoose.model (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:522:13)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/model/websitePage.js:27:19)
+    at getExports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cannot overwrite `websiteComponents` model once compiled."
+name: "OverwriteModelError"
+pid: 14520
+hostname: localhost
+
+2020-04-04 13:17:03,540 ERROR 14696 [-/127.0.0.1/-/0ms GET /] nodejs.OverwriteModelError: Cannot overwrite `websiteComponents` model once compiled.
+    at new OverwriteModelError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/overwriteModel.js:20:11)
+    at Mongoose.model (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:522:13)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/model/websitePage.js:27:19)
+    at getExports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cannot overwrite `websiteComponents` model once compiled."
+name: "OverwriteModelError"
+pid: 14696
+hostname: localhost
+
+2020-04-04 13:20:58,164 ERROR 14833 [-/127.0.0.1/-/1ms GET /] nodejs.OverwriteModelError: Cannot overwrite `websiteComponents` model once compiled.
+    at new OverwriteModelError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/overwriteModel.js:20:11)
+    at Mongoose.model (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:522:13)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/model/websitePage.js:27:19)
+    at getExports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cannot overwrite `websiteComponents` model once compiled."
+name: "OverwriteModelError"
+pid: 14833
+hostname: localhost
+
+2020-04-04 13:21:25,858 ERROR 14869 [-/127.0.0.1/-/0ms GET /] nodejs.OverwriteModelError: Cannot overwrite `websiteComponents` model once compiled.
+    at new OverwriteModelError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/overwriteModel.js:20:11)
+    at Mongoose.model (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:522:13)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/model/websitePage.js:27:19)
+    at getExports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cannot overwrite `websiteComponents` model once compiled."
+name: "OverwriteModelError"
+pid: 14869
+hostname: localhost
+
+2020-04-04 13:22:00,642 ERROR 14927 [-/127.0.0.1/-/0ms GET /] nodejs.OverwriteModelError: Cannot overwrite `websiteComponents` model once compiled.
+    at new OverwriteModelError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/overwriteModel.js:20:11)
+    at Mongoose.model (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:522:13)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/model/websitePage.js:27:19)
+    at getExports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cannot overwrite `websiteComponents` model once compiled."
+name: "OverwriteModelError"
+pid: 14927
+hostname: localhost
+
+2020-04-04 13:22:11,598 ERROR 14952 [-/127.0.0.1/-/0ms GET /] nodejs.OverwriteModelError: Cannot overwrite `websiteComponents` model once compiled.
+    at new OverwriteModelError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/overwriteModel.js:20:11)
+    at Mongoose.model (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:522:13)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/model/websitePage.js:27:19)
+    at getExports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cannot overwrite `websiteComponents` model once compiled."
+name: "OverwriteModelError"
+pid: 14952
+hostname: localhost
+
+2020-04-04 13:24:26,520 ERROR 15144 [-/127.0.0.1/-/0ms GET /] nodejs.OverwriteModelError: Cannot overwrite `websiteComponents` model once compiled.
+    at new OverwriteModelError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/overwriteModel.js:20:11)
+    at Mongoose.model (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:522:13)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/model/websitePage.js:27:19)
+    at getExports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cannot overwrite `websiteComponents` model once compiled."
+name: "OverwriteModelError"
+pid: 15144
+hostname: localhost
+
+2020-04-04 13:25:43,880 ERROR 15248 [-/127.0.0.1/-/0ms GET /] nodejs.OverwriteModelError: Cannot overwrite `websiteComponents` model once compiled.
+    at new OverwriteModelError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/overwriteModel.js:20:11)
+    at Mongoose.model (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:522:13)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/model/websitePage.js:27:19)
+    at getExports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:111:14)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:50:7
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cannot overwrite `websiteComponents` model once compiled."
+name: "OverwriteModelError"
+pid: 15248
+hostname: localhost
+
+2020-04-04 18:58:35,490 ERROR 36481 websiteComponentServer: ReferenceError: findData is not defined
+    at websiteComponentServer.queryPageCommonData (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/service/websiteComponentServer.js:46:65)
+    at PageConfigController.getPageCommonData (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/controller/pageConfig.js:160:57)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at errorHandler (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/middleware/errorHandler.js:5:13)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at uaMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/middleware/ua.js:4:11)
+2020-04-04 18:58:35,514 ERROR 36481 websiteComponentServer: ReferenceError: findData is not defined
+    at websiteComponentServer.queryPageCommonData (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/service/websiteComponentServer.js:46:65)
+    at PageConfigController.getPageCommonData (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/controller/pageConfig.js:160:57)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at errorHandler (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/middleware/errorHandler.js:5:13)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at uaMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/middleware/ua.js:4:11)
+2020-04-04 18:58:35,538 ERROR 36481 websiteComponentServer: ReferenceError: findData is not defined
+    at websiteComponentServer.queryPageCommonData (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/service/websiteComponentServer.js:46:65)
+    at PageConfigController.getPageCommonData (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/controller/pageConfig.js:160:57)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at errorHandler (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/middleware/errorHandler.js:5:13)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at uaMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/middleware/ua.js:4:11)
+2020-04-04 18:58:35,837 ERROR 36481 websiteComponentServer: ReferenceError: findData is not defined
+    at websiteComponentServer.queryPageCommonData (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/service/websiteComponentServer.js:46:65)
+    at PageConfigController.getPageCommonData (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/controller/pageConfig.js:160:57)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at errorHandler (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/middleware/errorHandler.js:5:13)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at uaMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/middleware/ua.js:4:11)
+2020-04-04 18:58:48,612 ERROR 36499 websiteComponentServer: ReferenceError: findData is not defined
+    at websiteComponentServer.queryPageCommonData (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/service/websiteComponentServer.js:46:65)
+    at PageConfigController.getPageCommonData (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/controller/pageConfig.js:160:57)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at errorHandler (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/middleware/errorHandler.js:5:13)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at uaMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/middleware/ua.js:4:11)
+2020-04-04 18:58:48,630 ERROR 36499 websiteComponentServer: ReferenceError: findData is not defined
+    at websiteComponentServer.queryPageCommonData (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/service/websiteComponentServer.js:46:65)
+    at PageConfigController.getPageCommonData (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/controller/pageConfig.js:160:57)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at errorHandler (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/middleware/errorHandler.js:5:13)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at uaMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/middleware/ua.js:4:11)
+2020-04-04 18:58:48,647 ERROR 36499 websiteComponentServer: ReferenceError: findData is not defined
+    at websiteComponentServer.queryPageCommonData (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/service/websiteComponentServer.js:46:65)
+    at PageConfigController.getPageCommonData (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/controller/pageConfig.js:160:57)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at errorHandler (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/middleware/errorHandler.js:5:13)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at uaMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/middleware/ua.js:4:11)
+2020-04-04 18:58:48,953 ERROR 36499 websiteComponentServer: ReferenceError: findData is not defined
+    at websiteComponentServer.queryPageCommonData (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/service/websiteComponentServer.js:46:65)
+    at PageConfigController.getPageCommonData (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/controller/pageConfig.js:160:57)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at errorHandler (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/middleware/errorHandler.js:5:13)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at uaMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/middleware/ua.js:4:11)
+2020-04-04 19:06:40,057 ERROR 37067 websiteComponentServer: ReferenceError: findData is not defined
+    at websiteComponentServer.updatePageCommonData (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/service/websiteComponentServer.js:55:66)
+    at PageConfigController.updatePageCommonData (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/controller/pageConfig.js:173:57)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at errorHandler (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/middleware/errorHandler.js:5:13)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at uaMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/middleware/ua.js:4:11)
+2020-04-04 19:07:24,880 ERROR 37117 websiteComponentServer: ReferenceError: findData is not defined
+    at websiteComponentServer.updatePageCommonData (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/service/websiteComponentServer.js:56:66)
+    at PageConfigController.updatePageCommonData (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/controller/pageConfig.js:173:57)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at errorHandler (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/middleware/errorHandler.js:5:13)
+    at dispatch (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at uaMiddleware (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app/middleware/ua.js:4:11)
+2020-04-04 19:19:43,185 ERROR 37758 websiteComponentServer: MongoError: The dotted field '0.3731485109810573' in 'componentData.0.3731485109810573' is not valid for storage.
+    at Function.create (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongodb/lib/core/error.js:43:12)
+    at toError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongodb/lib/utils.js:149:22)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongodb/lib/operations/common_functions.js:376:39
+    at handler (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongodb/lib/cmap/connection_pool.js:352:13
+    at handleOperationResult (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongodb/lib/core/sdam/server.js:487:5)
+    at MessageStream.messageHandler (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongodb/lib/cmap/connection.js:270:5)
+    at MessageStream.emit (events.js:210:5)
+    at processIncomingData (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:453:12)
+    at writeOrBuffer (_stream_writable.js:435:5)
+    at MessageStream.Writable.write (_stream_writable.js:315:11)
+    at Socket.ondata (_stream_readable.js:747:22)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:326:12) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 57,
+  errmsg: "The dotted field '0.3731485109810573' in 'componentData.0.3731485109810573' is not valid for storage.",
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+2020-04-04 19:22:37,702 ERROR 37758 websiteComponentServer: MongoError: The dotted field '0.3731485109810573' in 'componentData.0.3731485109810573' is not valid for storage.
+    at Function.create (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongodb/lib/core/error.js:43:12)
+    at toError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongodb/lib/utils.js:149:22)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongodb/lib/operations/common_functions.js:376:39
+    at handler (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongodb/lib/cmap/connection_pool.js:352:13
+    at handleOperationResult (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongodb/lib/core/sdam/server.js:487:5)
+    at MessageStream.messageHandler (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongodb/lib/cmap/connection.js:270:5)
+    at MessageStream.emit (events.js:210:5)
+    at processIncomingData (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:453:12)
+    at writeOrBuffer (_stream_writable.js:435:5)
+    at MessageStream.Writable.write (_stream_writable.js:315:11)
+    at Socket.ondata (_stream_readable.js:747:22)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:326:12) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 57,
+  errmsg: "The dotted field '0.3731485109810573' in 'componentData.0.3731485109810573' is not valid for storage.",
+  [Symbol(mongoErrorContextSymbol)]: {}
+}

@@ -15,9 +15,14 @@ module.exports = app => {
     },
     pageId: {
       type: Number,
+      unique: true,
       required: true,
     },
     config: {
+      type: Array,
+      default: []
+    },
+    pageConfig: {
       type: Array,
       default: []
     }

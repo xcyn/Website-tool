@@ -14,7 +14,13 @@ import {
   Row,
   Col,
   Button,
-  Message
+  Message,
+  Tabs,
+  TabPane,
+  Form,
+  FormItem,
+  Input,
+  Alert
 } from 'element-ui';
 
 Vue.use(Header)
@@ -28,6 +34,14 @@ Vue.use(MenuItemGroup)
 Vue.use(Row)
 Vue.use(Col)
 Vue.use(Button)
+Vue.use(Tabs)
+Vue.use(TabPane)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Input)
+Vue.use(Alert)
+
+
 Vue.prototype.$message = Message
 
 

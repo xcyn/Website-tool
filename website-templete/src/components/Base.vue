@@ -1,5 +1,5 @@
 <template>
-  <div class="Base" v-bind:style="componentData && componentData.baseStyle || {}">
+  <div class="Base" v-bind:style="baseStyle">
     <component
       v-if="componentData"
       :key="item.id"
@@ -12,7 +12,7 @@
 
 <script>
 import Button from '@/components/Button'
-import CellGroup from '@/components/CellGroup'
+import Cell from '@/components/Cell'
 import Image from '@/components/Image'
 import NavBar from '@/components/NavBar'
 export default {
@@ -27,9 +27,28 @@ export default {
       defalut: {}
     },
   },
+  computed: {
+    baseStyle: function() {
+      let componentData = this.componentData
+      if(componentData && componentData.baseStyle) {
+        if(typeof componentData.baseStyle === "string") {
+          try {
+            componentData = JSON.parse(componentData.baseStyle)
+            return componentData
+          } catch(err) {
+            return {}
+          }
+        } else {
+          return {}
+        }
+      } else {
+        return {}
+      }
+    }
+  },
   components: {
     'x-Button': Button,
-    'x-CellGroup': CellGroup,
+    'x-Cell': Cell,
     'x-Image': Image,
     'x-NavBar': NavBar
   },
