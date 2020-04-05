@@ -20,7 +20,10 @@
 + 原理图
   ![原理图](https://graph.baidu.com/resource/121d6d73565c34b6e4c6101585895640.jpg)
 + client编辑页面
-  ![client端](https://graph.baidu.com/resource/12172f318dee921ef62ca01586003732.jpg)
+  + 页面管理
+  ![页面管理](https://graph.baidu.com/resource/121dbedafa7d0e446675401586052268.jpg)
+  + 页面编辑
+  ![页面编辑](https://graph.baidu.com/resource/121644244960de12fd58f01586052325.jpg)
   + 表结构设计
     + 主要设计3张表
     + websitepages做页面版本控制，包含每一个页面的编辑和删除及发布

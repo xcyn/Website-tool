@@ -1,6 +1,9 @@
 <template>
   <div class="templete">
-    <div>
+    <div class="hidePage" v-if="!showPage">
+      <h3>页面还没有发布.....</h3>
+    </div>
+    <div v-if="showPage">
       <xcy-page
         :configList="getterConfigList"
         :componentDatas="getterComponentDatas"
@@ -22,12 +25,16 @@ export default {
           'getterPageInfo': 'getterPageInfo',
           'getterConfigList': 'getterConfigList',
           'getterComponentDatas': 'getterComponentDatas'
-      })
+      }),
+      showPage: function () {
+        return this.pageStatus || this.$route.query.pageType === 'preview'
+      }
     },
     data() {
         return {
           // 用于管控版本
-          pageId: this.$route.query.pageId || 1
+          pageId: this.$route.query.pageId,
+          pageStatus: 0
         };
     },
     serverPrefetch() {
@@ -57,16 +64,22 @@ export default {
         const componentDatas = res.data.data || {}
         this.SET_COMPONENTDATAS(componentDatas)
       },
+      async getpageStatus() {
+        const res = await axios.get(`${baseUrl}/pageConfig/getPageOne?pageId=${this.pageId}`)
+        this.pageStatus = res.data.data.status
+      }
     },
     created() {
     },
     async mounted() {
-      console.log('getterComponentDatas', this.getterComponentDatas)
-      document.body.style.backgroundColor = `rgba(${this.getterPageInfo.backgroundColor})`
-      document.title = this.getterPageInfo.title
+      this.getpageStatus()
+      this.$nextTick(() => {
+        document.body.style.backgroundColor = `rgba(${this.getterPageInfo.backgroundColor})`
+        document.title = this.getterPageInfo.title
+      })
     }
 };
 </script>
 
-<style scoped lang="stylus">
+<style scoped>
 </style>

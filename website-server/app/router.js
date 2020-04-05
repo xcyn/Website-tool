@@ -24,4 +24,14 @@ module.exports = app => {
   router.put('/pageConfig/updatePageCommonData', controller.pageConfig.updatePageCommonData)
   // 更新配置区域->页面组件数据
   router.put('/pageConfig/updatePageComponentData', controller.pageConfig.updatePageComponentData)
+  // 页面管理-获取页面列表
+  router.get('/pageConfig/getPages', controller.pageConfig.getPages)
+  // 页面管理-获取页面列表
+  router.get('/pageConfig/getPageOne', controller.pageConfig.getPageOne)
+  // 页面管理-保存页面列表
+  router.post('/pageConfig/savePages', controller.pageConfig.savePages)
+  // 页面管理-删除页面
+  router.delete('/pageConfig/deletePages', controller.pageConfig.deletePages)
+  // 页面管理-发布
+  router.post('/pageConfig/release', controller.pageConfig.release)
 };

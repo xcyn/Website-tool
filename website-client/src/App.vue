@@ -9,9 +9,6 @@
           <router-link :to="{ path: '/pageList'}" >
             <el-menu-item index="/pageList">页面管理</el-menu-item>
           </router-link>
-          <router-link :to="{ path: '/edit'}" >
-            <el-menu-item index="/edit">页面编辑</el-menu-item>
-          </router-link>
         </el-menu>
       </el-aside>
       <el-container class="content">

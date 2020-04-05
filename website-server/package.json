@@ -7,7 +7,8 @@
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
     "start": "egg-scripts start --daemon --title=website-node-server",
-    "stop": "egg-scripts stop --title=website-node-server"
+    "stop": "egg-scripts stop --title=website-node-server",
+    "build-templete": "npm run dev"
   },
   "author": "xiongchuanyu",
   "license": "ISC",
@@ -17,7 +18,8 @@
     "egg-mongoose": "^3.2.0",
     "egg-scripts": "^2.13.0",
     "moment": "^2.24.0",
-    "nanoid": "^2.0.1"
+    "nanoid": "^2.0.1",
+    "shelljs": "^0.8.3"
   },
   "devDependencies": {
     "egg-bin": "^4.14.1"

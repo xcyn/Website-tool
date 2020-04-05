@@ -5,7 +5,7 @@ module.exports = app => {
   const Schema = mongoose.Schema;
 
   const websitePageSchema = new Schema({
-    id: {
+    pageId: {
       type: Number,
       unique: true,
       required: true,
@@ -21,7 +21,11 @@ module.exports = app => {
     updateTime: {
       type: Date,
       default: Date.now,
-    }
+    },
+    status: {
+      type: Number,
+      default: 0
+    },
   });
 
   return mongoose.model('websitePages', websitePageSchema);

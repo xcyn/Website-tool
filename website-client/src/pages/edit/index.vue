@@ -45,7 +45,7 @@
           :closable="false"
           title="使用说明"
           type="success"
-          description="可上下移动组件观察预览区域页面生成效果">
+          description="1、可上下移动组件观察预览区域页面生成效果。2、点击可以修改组件配置中字段数据，通过提交数据看预览区域。">
         </el-alert>
       </el-col>
       <el-col :span="8" class="edit-col">
@@ -101,13 +101,13 @@
 <script>
 import axios from 'axios'
 import { cloneDeep } from 'lodash'
-const baseUrl = 'http://localhost:7013'
+import { baseUrl } from '@/config'
 export default {
   name: 'edit',
   data() {
     return {
       // 页面链接
-      pageSrc: 'http://localhost:3000/templete',
+      pageSrc: `http://localhost:3000/templete?pageId=${this.$route.query.pageId}&pageType=preview`,
       // 页面版本id
       pageId: this.$route.query.pageId || 1,
       // 布局区域数据
@@ -160,7 +160,7 @@ export default {
     // 保存布局区数据
     async savePageCpDatas(params={}) {
       await axios.post(`${baseUrl}/pageConfig/savePageCpDatas?pageId=${this.pageId}`, {
-        pageId: 1,
+        pageId: this.pageId,
         component: params
       })
       await this.getPageCpDatas()
@@ -169,7 +169,7 @@ export default {
     // 更新布局区数据
     async updatePageCpDatas(params={}) {
       await axios.put(`${baseUrl}/pageConfig/updatePageCpDatas?pageId=${this.pageId}`, {
-        pageId: 1,
+        pageId: this.pageId,
         component: params
       })
       await this.getPageCpDatas()
@@ -271,14 +271,7 @@ export default {
       this.updatePageCpDatas(copyConfigList)
     }
   },
-  watch: {
-    componentsDatas: {
-      handler(value) {
-        console.log('value', value)
-      },
-      deep: true
-    }
-  },
+  watch: {},
   mounted() {
     this.getComponentList()
     this.getPageCpDatas()

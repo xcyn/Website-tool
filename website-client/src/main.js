@@ -20,7 +20,10 @@ import {
   Form,
   FormItem,
   Input,
-  Alert
+  Alert,
+  Table,
+  TableColumn,
+  MessageBox
 } from 'element-ui';
 
 Vue.use(Header)
@@ -40,9 +43,13 @@ Vue.use(Form)
 Vue.use(FormItem)
 Vue.use(Input)
 Vue.use(Alert)
+Vue.use(Table)
+Vue.use(TableColumn)
 
 
 Vue.prototype.$message = Message
+Vue.prototype.$confirm = MessageBox.confirm
+Vue.prototype.$prompt = MessageBox.prompt
 
 
 

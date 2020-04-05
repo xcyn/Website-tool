@@ -1,7 +1,7 @@
 'use strict';
 
 const generate = require('nanoid/generate');
-
+var shell = require('shelljs')
 module.exports = {
   getUuid: () => {
     return generate('01234567890', 8);
@@ -12,5 +12,6 @@ module.exports = {
       errmsg,
       data
     }
-  }
+  },
+  shell: shell
 };

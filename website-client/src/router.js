@@ -20,7 +20,7 @@ const router = new VueRouter({
     {
       path: '/',
       name: 'home',
-      redirect: '/edit',
+      redirect: '/pageList',
       component: () => import(/* webpackChunkName: 'home' */'@/App.vue')
     },
     {
@@ -30,7 +30,8 @@ const router = new VueRouter({
     },
     {
       path: '/pageList',
-      name: 'pageList'
+      name: 'pageList',
+      component: () => import(/* webpackChunkName: 'templete' */'@/pages/pageList/index.vue')
     },
     notFound,
     defaultPage

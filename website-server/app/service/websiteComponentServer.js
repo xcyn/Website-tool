@@ -33,7 +33,6 @@ module.exports = app => {
     }
     async savePageConfigs(saveData) {
       try {
-        debugger
         const ins = new app.model.WebsiteComponents(saveData);
         const data = await ins.save()
         return data;
@@ -42,9 +41,11 @@ module.exports = app => {
         throw err;
       }
     }
-    async updatePageConfigs(findData, upData) {
+    async updatePageConfigs(upData) {
       try {
-        const data = await app.model.WebsiteComponents.updateOne(findData, upData)
+        const data = await app.model.WebsiteComponents.updateOne({
+          pageId: upData.pageId
+        }, upData)
         return data;
       } catch(err) {
         app.logger.error(LogType, err);
