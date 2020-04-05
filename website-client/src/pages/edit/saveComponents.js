@@ -100,7 +100,7 @@ const pageConfig = [{
 // 如果数据库里有数据调更新就行
 async function saveComponents() {
   try {
-    const baseUrl = window.location.host.indexOf('lovebhs.xyz') != -1 ? 'http://lovebhs.xyz:7013' : 'http://localhost:7013'
+    const baseUrl = 'http://127.0.0.1:7013'
     const axios = require('axios').default;
     const result = await axios.get(`${baseUrl}/pageConfig/getPageConfList`, {
       pageId: 1
