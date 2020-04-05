@@ -105,7 +105,7 @@ import { baseUrl } from '@/config'
 export default {
   name: 'edit',
   data() {
-    const baseHost = window.location.host.indexOf('lovebhs.xyz') != -1 ? 'http://lovebhs.xyz:3000': 'http://localhost:3000'
+    const baseHost = window.location.host.indexOf('lovebhs.xyz') != -1 ? 'http://lovebhs.xyz:3999': 'http://localhost:3000'
     return {
       // 页面链接
       pageSrc: `${baseHost}/templete?pageId=${this.$route.query.pageId}&pageType=preview`,
