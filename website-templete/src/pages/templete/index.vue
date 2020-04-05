@@ -15,7 +15,7 @@
 <script>
 import axios from 'axios'
 import {mapGetters, mapMutations} from 'vuex'
-const baseUrl = 'http://localhost:7013'
+const baseUrl = window.location.host.indexOf('lovebhs.xyz') ? 'http://lovebhs.xyz:7013' : 'http://localhost:7013'
 export default {
     name: 'templete',
     components: {
