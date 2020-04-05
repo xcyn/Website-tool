@@ -7,6 +7,7 @@
 + 主要技术栈
   + egg生态、vue全家桶、 docker部署
   + [egg文档](https://eggjs.github.io/)
++ 预览地址: http://lovebhs.xyz:9980/#/pageList
 + 项目启动
   + 环境依赖: docker-compose版本：1.25.4
   ```
