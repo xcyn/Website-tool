@@ -19,6 +19,9 @@
         label="操作"
         width="200">
         <template slot-scope="scope">
+          <el-button 
+            v-if="scope.row.status"
+            type="text" size="small" @click="handleSee(scope.row)">查看</el-button>
           <el-button type="text" size="small" @click="handleEdit(scope.row)">编辑</el-button>
           <el-button type="text" size="small" @click="handleDel(scope.row)">删除版本</el-button>
           <el-button type="text" size="small" v-if="!scope.row.status" @click="handleRelease(scope.row)">发布</el-button>
@@ -42,6 +45,15 @@ export default {
     async getPageList() {
       const pages = (await axios.get(`${baseUrl}/pageConfig/getPages`)).data.data
       this.pages = pages
+    },
+    async handleSee(record) {
+      this.$alert('会新开页面，请在手机模式下预览哦～', '提示', {
+        confirmButtonText: '确定',
+      }).then(async () => {
+        const baseHost = window.location.host.indexOf('lovebhs.xyz') != -1 ? 'http://lovebhs.xyz:3999': 'http://localhost:3000'
+        const pageSrc = `${baseHost}/templete?pageId=${record.pageId}`
+        window.open(pageSrc)
+      })
     },
     handleRelease(record) {
       this.$confirm('确定发布?', '提示', {

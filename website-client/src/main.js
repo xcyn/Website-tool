@@ -23,7 +23,8 @@ import {
   Alert,
   Table,
   TableColumn,
-  MessageBox
+  MessageBox,
+  Popover
 } from 'element-ui';
 
 Vue.use(Header)
@@ -45,9 +46,12 @@ Vue.use(Input)
 Vue.use(Alert)
 Vue.use(Table)
 Vue.use(TableColumn)
+Vue.use(Popover)
 
 
 Vue.prototype.$message = Message
+Vue.prototype.$alert = MessageBox.alert
+
 Vue.prototype.$confirm = MessageBox.confirm
 Vue.prototype.$prompt = MessageBox.prompt
 
