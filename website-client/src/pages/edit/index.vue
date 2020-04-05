@@ -105,9 +105,10 @@ import { baseUrl } from '@/config'
 export default {
   name: 'edit',
   data() {
+    const baseHost = window.location.host.indexOf('lovebhs.xyz') != -1 ? 'http://lovebhs.xyz:3000': 'http://localhost:3000'
     return {
       // 页面链接
-      pageSrc: `http://localhost:3000/templete?pageId=${this.$route.query.pageId}&pageType=preview`,
+      pageSrc: `${baseHost}/templete?pageId=${this.$route.query.pageId}&pageType=preview`,
       // 页面版本id
       pageId: this.$route.query.pageId || 1,
       // 布局区域数据
