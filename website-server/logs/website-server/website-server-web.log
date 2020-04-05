@@ -7980,3 +7980,49 @@ hostname: localhost
     at async notfound (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/app/middleware/notfound.js:5:5)
     at async meta (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/app/middleware/meta.js:12:5)
     at async cors (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/@koa/cors/index.js:54:32)
+2020-04-05 19:07:59,925 ERROR 64769 [-/127.0.0.1/-/0ms GET /] nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27018
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27018"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 64769
+hostname: localhost
+
+2020-04-05 19:11:11,569 ERROR 64993 [-/127.0.0.1/-/0ms GET /] nodejs.MongooseServerSelectionError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27018
+    at new MongooseServerSelectionError (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/error/serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/connection.js:823:32)
+    at Mongoose.createConnection (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/mongoose/lib/index.js:279:17)
+    at Singleton.createOneClient [as create] (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:69:23)
+    at Singleton.createInstance (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/egg.js:464:35)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/lib/mongoose.js:31:7)
+    at module.exports (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-mongoose/app.js:4:57)
+    at Hook.configDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:91:9)
+    at Lifecycle.triggerConfigDidLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:145:14)
+    at Lifecycle.triggerConfigWillLoad (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/lifecycle.js:139:10)
+    at AppWorkerLoader.loadCustomApp (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg-core/lib/loader/mixin/custom.js:37:20)
+    at AppWorkerLoader.load (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/loader/app_worker_loader.js:35:10)
+    at new Application (/Users/apple/Documents/xiangmu/node/Website-tool/website-server/node_modules/egg/lib/application.js:66:19)
+message: "[egg-mongoose]connect ECONNREFUSED 127.0.0.1:27018"
+name: "MongooseServerSelectionError"
+reason: {"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}
+pid: 64993
+hostname: localhost
+

@@ -4960,3 +4960,33 @@ hostname: localhost
 2020-04-05 09:53:58,077 INFO 57227 [egg-watcher] Start watching: "/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app.js"
 2020-04-05 09:53:58,077 INFO 57227 [egg-watcher:agent] watcher start success
 2020-04-05 09:53:58,090 INFO 57227 [egg:core] dump config after ready, 4ms
+2020-04-05 19:07:28,928 INFO 64765 [egg:logger] init all loggers with options: {"dir":"/Users/apple/Documents/xiangmu/node/Website-tool/website-server/logs/website-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"website-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-05 19:07:28,937 INFO 64765 [egg:core] dump config after load, 5ms
+2020-04-05 19:07:28,980 INFO 64765 [egg-watcher] Start watching: ["/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app","/Users/apple/Documents/xiangmu/node/Website-tool/website-server/config","/Users/apple/Documents/xiangmu/node/Website-tool/website-server/mocks","/Users/apple/Documents/xiangmu/node/Website-tool/website-server/mocks_proxy","/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app.js"]
+2020-04-05 19:07:28,980 INFO 64765 [egg-watcher] Start watching: "/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app"
+2020-04-05 19:07:28,980 INFO 64765 [egg-watcher] Start watching: "/Users/apple/Documents/xiangmu/node/Website-tool/website-server/config"
+2020-04-05 19:07:28,980 INFO 64765 [egg-watcher] Start watching: "/Users/apple/Documents/xiangmu/node/Website-tool/website-server/mocks"
+2020-04-05 19:07:28,981 INFO 64765 [egg-watcher] Start watching: "/Users/apple/Documents/xiangmu/node/Website-tool/website-server/mocks_proxy"
+2020-04-05 19:07:28,981 INFO 64765 [egg-watcher] Start watching: "/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app.js"
+2020-04-05 19:07:28,981 INFO 64765 [egg-watcher:agent] watcher start success
+2020-04-05 19:07:28,991 INFO 64765 [egg:core] dump config after ready, 4ms
+2020-04-05 19:10:40,584 INFO 64991 [egg:logger] init all loggers with options: {"dir":"/Users/apple/Documents/xiangmu/node/Website-tool/website-server/logs/website-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"website-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-05 19:10:40,593 INFO 64991 [egg:core] dump config after load, 5ms
+2020-04-05 19:10:40,640 INFO 64991 [egg-watcher] Start watching: ["/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app","/Users/apple/Documents/xiangmu/node/Website-tool/website-server/config","/Users/apple/Documents/xiangmu/node/Website-tool/website-server/mocks","/Users/apple/Documents/xiangmu/node/Website-tool/website-server/mocks_proxy","/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app.js"]
+2020-04-05 19:10:40,640 INFO 64991 [egg-watcher] Start watching: "/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app"
+2020-04-05 19:10:40,640 INFO 64991 [egg-watcher] Start watching: "/Users/apple/Documents/xiangmu/node/Website-tool/website-server/config"
+2020-04-05 19:10:40,640 INFO 64991 [egg-watcher] Start watching: "/Users/apple/Documents/xiangmu/node/Website-tool/website-server/mocks"
+2020-04-05 19:10:40,640 INFO 64991 [egg-watcher] Start watching: "/Users/apple/Documents/xiangmu/node/Website-tool/website-server/mocks_proxy"
+2020-04-05 19:10:40,640 INFO 64991 [egg-watcher] Start watching: "/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app.js"
+2020-04-05 19:10:40,640 INFO 64991 [egg-watcher:agent] watcher start success
+2020-04-05 19:10:40,650 INFO 64991 [egg:core] dump config after ready, 4ms
+2020-04-05 19:12:01,442 INFO 65064 [egg:logger] init all loggers with options: {"dir":"/Users/apple/Documents/xiangmu/node/Website-tool/website-server/logs/website-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"website-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-05 19:12:01,450 INFO 65064 [egg:core] dump config after load, 3ms
+2020-04-05 19:12:01,491 INFO 65064 [egg-watcher] Start watching: ["/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app","/Users/apple/Documents/xiangmu/node/Website-tool/website-server/config","/Users/apple/Documents/xiangmu/node/Website-tool/website-server/mocks","/Users/apple/Documents/xiangmu/node/Website-tool/website-server/mocks_proxy","/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app.js"]
+2020-04-05 19:12:01,491 INFO 65064 [egg-watcher] Start watching: "/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app"
+2020-04-05 19:12:01,491 INFO 65064 [egg-watcher] Start watching: "/Users/apple/Documents/xiangmu/node/Website-tool/website-server/config"
+2020-04-05 19:12:01,491 INFO 65064 [egg-watcher] Start watching: "/Users/apple/Documents/xiangmu/node/Website-tool/website-server/mocks"
+2020-04-05 19:12:01,491 INFO 65064 [egg-watcher] Start watching: "/Users/apple/Documents/xiangmu/node/Website-tool/website-server/mocks_proxy"
+2020-04-05 19:12:01,491 INFO 65064 [egg-watcher] Start watching: "/Users/apple/Documents/xiangmu/node/Website-tool/website-server/app.js"
+2020-04-05 19:12:01,491 INFO 65064 [egg-watcher:agent] watcher start success
+2020-04-05 19:12:01,501 INFO 65064 [egg:core] dump config after ready, 4ms

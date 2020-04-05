@@ -72,6 +72,9 @@ export default {
     created() {
     },
     async mounted() {
+      this.getPageInfo()
+      this.getConfigList()
+      this.getComponentDatas()
       this.getpageStatus()
       this.$nextTick(() => {
         document.body.style.backgroundColor = `rgba(${this.getterPageInfo.backgroundColor})`
