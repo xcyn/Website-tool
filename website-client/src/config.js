@@ -1,1 +1,1 @@
-export const baseUrl = window.location.host.indexOf('lovebhs.xyz') != -1 ? 'http://lovebhs.xyz:7013' : 'http://localhost:7013'
+export const baseUrl = 'http://127.0.0.1:7013'
