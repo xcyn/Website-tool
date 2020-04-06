@@ -77,7 +77,8 @@ export default {
         this.$message({
           type: 'success',
           message: res.data.errmsg
-        });
+        })
+        this.getPageList()
       }).catch(() => {
         this.$message({
           type: 'info',
