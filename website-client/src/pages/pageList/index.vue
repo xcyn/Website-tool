@@ -28,6 +28,17 @@
         </template>
       </el-table-column>
     </el-table>
+    <div
+      class="pagination"
+    >
+      <el-pagination
+        background
+        @current-change="handleCurrentChange"
+        :current-page.sync="query.currentPage"
+        layout="prev, pager, next"
+        :total="pageTotal">
+      </el-pagination>
+    </div>
     <el-dialog
       :visible.sync="visible"
       width="30%"
@@ -49,6 +60,11 @@ export default {
   name: 'pageList',
   data() {
     return {
+      query: {
+        currentPage: 1,
+        pageSize: 10
+      },
+      pageTotal: 0,
       visible: false,
       qrImg: '',
       pages: []
@@ -56,8 +72,10 @@ export default {
   },
   methods: {
     async getPageList() {
-      const pages = (await axios.get(`${baseUrl}/pageConfig/getPages`)).data.data
-      this.pages = pages
+      const { currentPage, pageSize } = this.query
+      const pages = (await axios.get(`${baseUrl}/pageConfig/getPages?currentPage=${currentPage}&pageSize=${pageSize}`)).data.data
+      this.pages = pages.data
+      this.pageTotal = pages.pageTotal
     },
     async handleSee(record) {
       const baseHost = window.location.host.indexOf('lovebhs.xyz') != -1 ? 'http://lovebhs.xyz:3999': 'http://localhost:3000'
@@ -149,6 +167,10 @@ export default {
           pageId: record.pageId
         }
       })
+    },
+    handleCurrentChange(val) {
+      this.query.currentPage = val
+      this.getPageList()
     }
   },
   components: {
@@ -165,5 +187,10 @@ export default {
 }
 .addBtn {
   margin-bottom: 20px
+}
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0
 }
 </style>

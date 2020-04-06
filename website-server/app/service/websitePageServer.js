@@ -3,10 +3,14 @@
 const LogType = 'websitePageServer:';
 module.exports = app => {
   class websitePageServer extends app.Service {
-    async queryPages() {
+    async queryPages(pageData) {
       try {
-        const query = await app.model.WebsitePages.find() || {}
-        return query;
+        const data = await app.model.WebsitePages.find().skip(+ (pageData.currentPage-1) * pageData.pageSize).limit(+pageData.pageSize) || {}
+        const pageTotal = await app.model.WebsitePages.find().count()
+        return {
+          data,
+          pageTotal
+        };
       } catch(err) {
         app.logger.error(LogType, err);
         throw err;

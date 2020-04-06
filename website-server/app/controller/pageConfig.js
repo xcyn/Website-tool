@@ -156,9 +156,12 @@ class PageConfigController extends Controller {
   async getPages() {
     try {
       const { ctx, service } = this;
-      const data = await service.websitePageServer.queryPages();
+      const { data, pageTotal } = await service.websitePageServer.queryPages(ctx.request.query);
       ctx.body = ctx.helper.res({
-        data,
+        data: {
+          data,
+          pageTotal
+        },
         errmsg: '获取版本列表数据成功'
       })
     } catch(err) {

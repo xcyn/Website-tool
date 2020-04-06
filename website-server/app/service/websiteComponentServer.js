@@ -24,7 +24,7 @@ module.exports = app => {
     }
     async queryPageComponentDatas(findData = {pageId: 1}) {
       try {
-        const query = await app.model.WebsiteComponents.findOne({pageId: +findData.pageId})
+        const query = await app.model.WebsiteComponents.findOne({pageId: +findData.pageId}) || {}
         return query.componentData;
       } catch(err) {
         app.logger.error(LogType, err);
