@@ -24,7 +24,8 @@ import {
   Table,
   TableColumn,
   MessageBox,
-  Popover
+  Popover,
+  Dialog
 } from 'element-ui';
 
 Vue.use(Header)
@@ -47,6 +48,7 @@ Vue.use(Alert)
 Vue.use(Table)
 Vue.use(TableColumn)
 Vue.use(Popover)
+Vue.use(Dialog)
 
 
 Vue.prototype.$message = Message

@@ -34,4 +34,6 @@ module.exports = app => {
   router.delete('/pageConfig/deletePages', controller.pageConfig.deletePages)
   // 页面管理-发布
   router.post('/pageConfig/release', controller.pageConfig.release)
+  // 页面管理-生成二维码
+  router.get('/pageConfig/qrCode', controller.pageConfig.qrCode)
 };

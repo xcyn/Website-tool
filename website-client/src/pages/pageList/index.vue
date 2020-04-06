@@ -28,6 +28,17 @@
         </template>
       </el-table-column>
     </el-table>
+    <el-dialog
+      :visible.sync="visible"
+      width="30%"
+      center>
+      <div style="text-align: center">
+        <div>
+          用手机扫描可以查看效果, 二维码只保存3分钟哦
+        </div>
+        <img :src="qrImg" alt="">
+      </div>
+    </el-dialog>
   </div>
 </template>
 
@@ -38,6 +49,8 @@ export default {
   name: 'pageList',
   data() {
     return {
+      visible: false,
+      qrImg: '',
       pages: []
     }
   },
@@ -47,13 +60,12 @@ export default {
       this.pages = pages
     },
     async handleSee(record) {
-      this.$alert('会新开页面，请在手机模式下预览哦～', '提示', {
-        confirmButtonText: '确定',
-      }).then(async () => {
-        const baseHost = window.location.host.indexOf('lovebhs.xyz') != -1 ? 'http://lovebhs.xyz:3999': 'http://localhost:3000'
-        const pageSrc = `${baseHost}/templete?pageId=${record.pageId}`
-        window.open(pageSrc)
-      })
+      const baseHost = window.location.host.indexOf('lovebhs.xyz') != -1 ? 'http://lovebhs.xyz:3999': 'http://localhost:3000'
+      const pageSrc = `${baseHost}/templete?pageId=${record.pageId}`
+      const qrCode = (await axios.get(`${baseUrl}/pageConfig/qrCode?url=${pageSrc}`)).data.data
+      // 开发环境下baseUrl需要改成自己本机ip才能看到扫码效果
+      this.qrImg = `${baseUrl}/public/qrCode/${qrCode}`
+      this.visible = true
     },
     handleRelease(record) {
       this.$confirm('确定发布?', '提示', {

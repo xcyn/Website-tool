@@ -1,4 +1,5 @@
 const Controller = require('egg').Controller;
+const qr = require('qr-image');
 
 class PageConfigController extends Controller {
   async getPageId() {
@@ -212,6 +213,24 @@ class PageConfigController extends Controller {
       ctx.body = ctx.helper.res({
         data,
         errmsg: '发布成功'
+      })
+    } catch(err) {
+      console.log('err', err)
+      throw err
+    }
+  }
+
+  async qrCode() {
+    try {
+      const { ctx } = this
+      var data = qr.image(ctx.request.query.url)
+      ctx.type= 'image/png'
+      const qrImageName = `qr-Q-${Math.floor(Math.random()*1000)}.png`
+      const savePath = ctx.helper.path.resolve(__dirname, `../public/qrCode/${qrImageName}`)
+      await data.pipe(ctx.helper.fs.createWriteStream(savePath))
+      ctx.body = ctx.helper.res({
+        data: qrImageName,
+        errmsg: '生成二维码成功'
       })
     } catch(err) {
       console.log('err', err)

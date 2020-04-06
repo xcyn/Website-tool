@@ -4,7 +4,7 @@
 + 后期优化**
   + ssr做压缩缓存，日志， 现在做的还稍微有的问题
   + 增加复杂组件，集成vant更多组件（目前是支持vant组件配置透传的）
-  + 增加页面拖拽生成能力
+  + 增加页面拖拽生成能力(SortableJS)
 + 主要技术栈
   + egg生态、vue全家桶、 docker部署
   + [egg文档](https://eggjs.github.io/)
@@ -23,7 +23,7 @@
     npm run serve
   ```
 + 原理图
-  ![原理图](https://graph.baidu.com/resource/121d6d73565c34b6e4c6101585895640.jpg)
+  ![原理图](https://graph.baidu.com/resource/1214a265d61f39bd376ed01586143189.jpg)
 + client编辑页面
   + 页面管理
   ![页面管理](https://graph.baidu.com/resource/121dbedafa7d0e446675401586052268.jpg)
