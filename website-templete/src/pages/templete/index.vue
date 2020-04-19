@@ -15,7 +15,7 @@
 <script>
 import axios from 'axios'
 import {mapGetters, mapMutations} from 'vuex'
-const baseUrl = window.location.host.indexOf('lovebhs.xyz') != -1 ? 'http://lovebhs.xyz:7013' : 'http://localhost:7013'
+const baseUrl = 'http://127.0.0.1:7013'
 export default {
     name: 'templete',
     components: {
@@ -72,9 +72,15 @@ export default {
     created() {
     },
     async mounted() {
-      this.getPageInfo()
-      this.getConfigList()
-      this.getComponentDatas()
+      if(JSON.stringify(this.getterPageInfo) === '{}') {
+        this.getPageInfo()
+      }
+      if(JSON.stringify(this.getterConfigList) === JSON.stringify([])) {
+        this.getConfigList()
+      }
+      if(JSON.stringify(this.getterComponentDatas) === '{}') {
+        this.getComponentDatas()
+      }
       this.getpageStatus()
       this.$nextTick(() => {
         document.body.style.backgroundColor = `rgba(${this.getterPageInfo.backgroundColor})`
