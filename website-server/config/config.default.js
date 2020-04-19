@@ -57,5 +57,20 @@ module.exports = appInfo => {
     }
   };
 
+  config.alinode = {
+    enable: true,
+    // 从 `Node.js 性能平台` 获取对应的接入参数
+    appid: '84225',
+    secret: '7955e6beadef473fe73840613100acb91efcb753',
+    logdir: '/app/logs/website-server/egg-web.log',
+    error_log: [
+      '/app/logs/website-server/common-error.log',
+      '/app/logs/website-server/website-server-web.log'
+    ],
+    packages: [
+      '/app/package.json'
+    ]
+  };
+
   return config;
 };

@@ -4,7 +4,7 @@
   "description": "建站工具后端",
   "main": "index.js",
   "scripts": {
-    "dev": "egg-bin dev",
+    "dev": "egg-bin dev --daemon",
     "debug": "egg-bin debug",
     "start": "egg-scripts start --daemon --title=website-node-server",
     "stop": "egg-scripts stop --title=website-node-server",
@@ -14,6 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "egg": "^2.26.0",
+    "egg-alinode": "^2.0.1",
     "egg-cors": "^2.2.3",
     "egg-mongoose": "^3.2.0",
     "egg-scripts": "^2.13.0",

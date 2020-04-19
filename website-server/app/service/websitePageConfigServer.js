@@ -8,6 +8,7 @@ module.exports = app => {
     async queryComponents() {
       try {
         const query = await app.model.WebsitePageConfigs.findOne(findData) || {}
+        app.logger.error(LogType, '测试err');
         return query.config;
       } catch(err) {
         app.logger.error(LogType, err);
