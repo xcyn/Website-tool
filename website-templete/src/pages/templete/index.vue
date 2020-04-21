@@ -15,7 +15,9 @@
 <script>
 import axios from 'axios'
 import {mapGetters, mapMutations} from 'vuex'
-const baseUrl = 'http://127.0.0.1:7013'
+const { 
+  baseUrl
+} = require('@/ssrVar')
 export default {
     name: 'templete',
     components: {

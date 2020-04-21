@@ -14,6 +14,7 @@ const colCss = isNodeEnv ? {} : require('vant/lib/col/style');
 const rowCss = isNodeEnv ? {} : require('vant/lib/row/style');
 const ImageCss = isNodeEnv ? {} : require('vant/lib/image/style');
 const NavBarCss = isNodeEnv ? {} : require('vant/lib/nav-bar/style');
+const BaseUrl = isNodeEnv ? 'http://127.0.0.1:7013' : 'http://lovebhs.xyz:7013'
 
 module.exports = {
   ButtonCss,
@@ -29,5 +30,6 @@ module.exports = {
   Image,
   ImageCss,
   NavBar,
-  NavBarCss
+  NavBarCss,
+  BaseUrl
 };
