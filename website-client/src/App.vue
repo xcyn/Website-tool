@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <el-header class="header">
-      <span>建站工具</span>
+      <span>低代码平台</span>
     </el-header>
     <el-container class="container" :style="{height: height}">
       <el-aside width="120px" style="background-color: rgb(238, 241, 246)">

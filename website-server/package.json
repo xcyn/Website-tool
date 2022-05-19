@@ -1,7 +1,7 @@
 {
   "name": "website-server",
   "version": "1.0.0",
-  "description": "建站工具后端",
+  "description": "低代码平台后端",
   "main": "index.js",
   "scripts": {
     "dev": "egg-bin dev --daemon",
