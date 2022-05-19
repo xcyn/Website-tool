@@ -1,0 +1,11 @@
+{
+  "componentGenerics": {
+    "scoped-slots-default": true
+  },
+  "component": true,
+  "usingComponents": {
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "data-picker-view": "/uni_modules/uni-data-picker/components/uni-data-pickerview/uni-data-pickerview"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="_div"><van-nav-bar class="van-nav-bar-c" vue-id="5eb309dc-1" title="{{data.title&&data.title.value||''}}" left-text="{{data.leftText&&data.leftText.value||''}}" right-text="{{data.rightText&&data.rightText.value||''}}" data-com-type="wx" bind:__l="__l"></van-nav-bar></view>

@@ -1,0 +1,12 @@
+
+.my-cell.data-v-3db415f4 .van-cell {
+	display: block;
+	overflow: hidden;
+}
+.my-cell.data-v-3db415f4 .van-cell .van-cell__title {
+	float: left;
+}
+.my-cell.data-v-3db415f4 .van-cell .van-cell__value {
+	float: right;
+}
+

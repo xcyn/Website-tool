@@ -8,17 +8,17 @@
 + 主要技术栈
   + egg生态、vue全家桶、 docker部署
   + [egg文档](https://eggjs.github.io/)
-+ 预览地址: http://lovebhs.xyz:9980/#/pageList
++ 预览地址: http://localhost:9980/#/pageList
 + 项目启动
   + 环境依赖: docker-compose版本：1.25.4
   ```
-    cd /website-docker
+    cd website-docker
     docker-compose up -d
-    cd /website-server
+    cd website-server
     npm run dev
-    cd /website-templete
-    npm run ssr
-    cd /website-client
+    cd website-templete
+    npm run dev
+    cd website-client
     npm run save 初始化导入mongodb
     npm run serve
   ```

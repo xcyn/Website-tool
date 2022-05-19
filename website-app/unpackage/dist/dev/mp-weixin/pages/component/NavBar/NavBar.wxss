@@ -1,0 +1,8 @@
+
+.van-nav-bar-c {
+	padding-top: 0!important;
+}
+.van-nav-bar-c .van-nav-bar {
+	padding-top: 0!important;
+}
+

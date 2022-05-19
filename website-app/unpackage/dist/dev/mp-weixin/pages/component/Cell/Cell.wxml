@@ -1,0 +1,1 @@
+<van-cell class="my-cell data-v-3db415f4" vue-id="78cf2992-1" title="{{data.title&&data.title.value}}" value="{{data.value&&data.value.value}}" label="{{data.lable&&data.lable.value}}" data-com-type="wx" bind:__l="__l"></van-cell>

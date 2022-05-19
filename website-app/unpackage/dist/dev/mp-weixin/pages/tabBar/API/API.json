@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "接口",
+  "usingComponents": {
+    "x-button": "/pages/component/button/button",
+    "x-cell": "/pages/component/Cell/Cell",
+    "x-image": "/pages/component/image/image",
+    "x-nav-bar": "/pages/component/NavBar/NavBar"
+  }
+}

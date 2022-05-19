@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "dropdown": "/uni_modules/uni-table/components/uni-th/filter-dropdown"
+  }
+}

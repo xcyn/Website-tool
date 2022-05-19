@@ -1,44 +1,41 @@
 <template>
   <div class="Button">
-    <Button v-bind="data" :style="BtnStyle">{{data && data.value}}</Button>
+    <Button v-bind="data" :style="BtnStyle">{{ data && data.value }}</Button>
   </div>
 </template>
 
 <script>
-const { 
-  Button, ButtonCss
-} = require('@/ssrVar')
+const { Button, ButtonCss } = require("@/ssrVar");
 export default {
-  name: 'x-Button',
+  name: "x-Button",
   props: {
     data: {
       type: [Object, String],
       defalut: () => {
-        return {}
-      }
-    }
+        return {};
+      },
+    },
   },
   computed: {
-    BtnStyle: function() {
-      let style = this.data.style
-      if(style) {
+    BtnStyle: function () {
+      let style = this.data.style;
+      if (style) {
         try {
-          style = JSON.parse(style)
-          return style
-        } catch(err) {
-          return {}
+          style = JSON.parse(style);
+          return style;
+        } catch (err) {
+          return {};
         }
       } else {
-        return {}
+        return {};
       }
-    }
+    },
   },
   components: {
-    Button
+    Button,
   },
-  mounted() {
-  }
-}
+  mounted() {},
+};
 </script>
 
 <style scoped>
