@@ -15,7 +15,7 @@ const colCss = isNodeEnv ? {} : require('vant/lib/col/style');
 const rowCss = isNodeEnv ? {} : require('vant/lib/row/style');
 const ImageCss = isNodeEnv ? {} : require('vant/lib/image/style');
 const NavBarCss = isNodeEnv ? {} : require('vant/lib/nav-bar/style');
-const BaseUrl = isNodeEnv ? 'http://127.0.0.1:7013' : 'http://112.74.86.53:8083'
+const BaseUrl = isNodeEnv ? 'http://127.0.0.1:7013' : 'http://112.74.86.53:7013'
 console.log('BaseUrl', BaseUrl)
 
 module.exports = {

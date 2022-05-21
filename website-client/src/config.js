@@ -1,1 +1,1 @@
-export const baseUrl = window.location.host.indexOf('lovebhs.xyz') != -1 ? 'http://112.74.86.53:8083' : 'http://112.74.86.53:8083'
+export const baseUrl = window.location.host.indexOf('lovebhs.xyz') != -1 ? 'http://112.74.86.53:7013' : 'http://112.74.86.53:7013'
