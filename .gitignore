@@ -7,3 +7,4 @@ website-server/run
 website-docker/db
 website-templete/node_modules
 website-server/logs
+website-app/

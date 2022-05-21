@@ -17,7 +17,7 @@
     cd website-server
     npm run dev
     cd website-templete
-    npm run dev
+    npm run serve
     cd website-client
     npm run save 初始化导入mongodb
     npm run serve

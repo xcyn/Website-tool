@@ -94,7 +94,7 @@
 			async getConfigData() {
 				return new Promise((resolve, reject) => {
 					uni.request({
-						url: 'http://localhost:7013/pageConfig/getPageCpDatas?pageId=60541',
+						url: 'http://112.74.86.53:8083/pageConfig/getPageCpDatas?pageId=60541',
 						method: 'GET',
 						data: {
 						},
@@ -111,7 +111,7 @@
 			async getValueData() {
 				return new Promise((resolve, reject) => {
 					uni.request({
-						url: 'http://localhost:7013/pageConfig/getPageComponentDatas?pageId=60541',
+						url: 'http://112.74.86.53:8083/pageConfig/getPageComponentDatas?pageId=60541',
 						method: 'GET',
 						data: {
 						},

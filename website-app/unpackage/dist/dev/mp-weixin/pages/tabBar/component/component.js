@@ -196,6 +196,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
 var _button = _interopRequireDefault(__webpack_require__(/*! ../../component/button/button.vue */ 26));
 
 var _image = _interopRequireDefault(__webpack_require__(/*! ../../component/image/image.vue */ 33));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};}var Cell = function Cell() {__webpack_require__.e(/*! require.ensure | pages/component/Cell/Cell */ "pages/component/Cell/Cell").then((function () {return resolve(__webpack_require__(/*! ../../component/Cell/Cell.vue */ 1167));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var NavBar = function NavBar() {__webpack_require__.e(/*! require.ensure | pages/component/NavBar/NavBar */ "pages/component/NavBar/NavBar").then((function () {return resolve(__webpack_require__(/*! ../../component/NavBar/NavBar.vue */ 1174));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
@@ -255,7 +257,7 @@ var _image = _interopRequireDefault(__webpack_require__(/*! ../../component/imag
     getConfigData: function getConfigData() {return _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee() {return _regenerator.default.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:return _context.abrupt("return",
                 new Promise(function (resolve, reject) {
                   uni.request({
-                    url: 'http://localhost:7013/pageConfig/getPageCpDatas?pageId=15448915',
+                    url: 'http://localhost:7013/pageConfig/getPageCpDatas?pageId=8092021',
                     method: 'GET',
                     data: {},
 
@@ -272,7 +274,7 @@ var _image = _interopRequireDefault(__webpack_require__(/*! ../../component/imag
     getValueData: function getValueData() {return _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee2() {return _regenerator.default.wrap(function _callee2$(_context2) {while (1) {switch (_context2.prev = _context2.next) {case 0:return _context2.abrupt("return",
                 new Promise(function (resolve, reject) {
                   uni.request({
-                    url: 'http://localhost:7013/pageConfig/getPageComponentDatas?pageId=15448915',
+                    url: 'http://localhost:7013/pageConfig/getPageComponentDatas?pageId=8092021',
                     method: 'GET',
                     data: {},
 

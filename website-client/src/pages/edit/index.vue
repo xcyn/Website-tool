@@ -142,7 +142,7 @@ export default {
     const baseHost =
       window.location.host.indexOf("lovebhs.xyz") != -1
         ? "http://localhost:3999"
-        : "http://localhost:8081";
+        : "http://localhost:8080";
     return {
       // 页面链接
       pageSrc: `${baseHost}/templete?pageId=${this.$route.query.pageId}&pageType=preview`,
