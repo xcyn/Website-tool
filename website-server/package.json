@@ -20,7 +20,7 @@
     "egg-mongoose": "^3.2.0",
     "egg-scripts": "^2.13.0",
     "moment": "^2.24.0",
-    "nanoid": "^2.0.1",
+    "nanoid": "^3.1.31",
     "qr-image": "^3.2.0",
     "shelljs": "^0.8.3"
   },
