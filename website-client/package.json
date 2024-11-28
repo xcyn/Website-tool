@@ -9,7 +9,7 @@
     "save": "node src/pages/edit/saveComponents.js"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "core-js": "^3.6.4",
     "element-ui": "^2.13.0",
     "lodash": "^4.17.15",
