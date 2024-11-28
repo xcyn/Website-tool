@@ -22,7 +22,7 @@
     "moment": "^2.24.0",
     "nanoid": "^2.0.1",
     "qr-image": "^3.2.0",
-    "shelljs": "^0.8.3"
+    "shelljs": "^0.8.5"
   },
   "devDependencies": {
     "egg-bin": "^4.14.1"
